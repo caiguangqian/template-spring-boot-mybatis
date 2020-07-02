@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onion.template.spring.boot.mybatis.mapper.DepreciationWayMapper">
+  <resultMap id="BaseResultMap" type="com.onion.template.spring.boot.mybatis.entity.DepreciationWay">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="depreciation_way_id" jdbcType="BIGINT" property="depreciationWayId" />
+    <result column="depreciation_way_name" jdbcType="VARCHAR" property="depreciationWayName" />
+  </resultMap>
+</mapper>

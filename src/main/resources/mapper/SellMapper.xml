@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onion.template.spring.boot.mybatis.mapper.SellMapper">
+  <resultMap id="BaseResultMap" type="com.onion.template.spring.boot.mybatis.entity.Sell">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="sell_id" jdbcType="BIGINT" property="sellId" />
+    <result column="assets_id" jdbcType="BIGINT" property="assetsId" />
+    <result column="employee_id" jdbcType="BIGINT" property="employeeId" />
+    <result column="sell_count" jdbcType="INTEGER" property="sellCount" />
+    <result column="last_deal_id" jdbcType="BIGINT" property="lastDealId" />
+    <result column="sell_value" jdbcType="DOUBLE" property="sellValue" />
+    <result column="sell_time" jdbcType="DATE" property="sellTime" />
+    <result column="sell_status" jdbcType="TINYINT" property="sellStatus" />
+  </resultMap>
+</mapper>

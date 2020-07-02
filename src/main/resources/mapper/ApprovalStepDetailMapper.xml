@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onion.template.spring.boot.mybatis.mapper.ApprovalStepDetailMapper">
+  <resultMap id="BaseResultMap" type="com.onion.template.spring.boot.mybatis.entity.ApprovalStepDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="approval_step_detail_id" jdbcType="BIGINT" property="approvalStepDetailId" />
+    <result column="approval_main_id" jdbcType="BIGINT" property="approvalMainId" />
+    <result column="step_name" jdbcType="VARCHAR" property="stepName" />
+    <result column="step_id" jdbcType="INTEGER" property="stepId" />
+    <result column="role_id" jdbcType="BIGINT" property="roleId" />
+    <result column="datetime" jdbcType="TIMESTAMP" property="datetime" />
+    <result column="by_who" jdbcType="BIGINT" property="byWho" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+</mapper>

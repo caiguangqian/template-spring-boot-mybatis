@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onion.template.spring.boot.mybatis.mapper.ApprovalMainMapper">
+  <resultMap id="BaseResultMap" type="com.onion.template.spring.boot.mybatis.entity.ApprovalMain">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="approval_main_id" jdbcType="BIGINT" property="approvalMainId" />
+    <result column="approval_name" jdbcType="VARCHAR" property="approvalName" />
+    <result column="apply_type" jdbcType="INTEGER" property="applyType" />
+    <result column="step_cnt" jdbcType="INTEGER" property="stepCnt" />
+    <result column="datetime" jdbcType="TIMESTAMP" property="datetime" />
+    <result column="by_who" jdbcType="INTEGER" property="byWho" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+</mapper>
