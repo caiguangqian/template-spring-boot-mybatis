@@ -5,6 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
+/**
+ * @author onion
+ */
 @SpringBootApplication
 @MapperScan(basePackages = "com.onion.template.spring.boot.mybatis.mapper")
 public class TemplateSpringBootMybatisApplication {

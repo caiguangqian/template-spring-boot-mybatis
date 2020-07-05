@@ -1,9 +1,10 @@
 package com.onion.template.spring.boot.mybatis.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Table(name = "role")
-public class Role {
+public class Role implements Serializable {
     /**
      * 角色id
      */
@@ -120,6 +121,17 @@ public class Role {
      * @param limitedId
      */
     public void setLimitedId(Long limitedId) {
+        this.limitedId = limitedId;
+    }
+
+    public Role() {
+    }
+
+    public Role(Long roleId, String roleName, Boolean roleStatus, String roleRemarks, Long limitedId) {
+        this.roleId = roleId;
+        this.roleName = roleName;
+        this.roleStatus = roleStatus;
+        this.roleRemarks = roleRemarks;
         this.limitedId = limitedId;
     }
 }

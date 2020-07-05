@@ -3,36 +3,56 @@ package com.onion.template.spring.boot.mybatis;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.onion.template.spring.boot.mybatis.entity.Apply;
-import com.onion.template.spring.boot.mybatis.entity.ApprovalMain;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
+import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.ApplyMapper;
 import com.onion.template.spring.boot.mybatis.mapper.ApprovalMainMapper;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
+import com.onion.template.spring.boot.mybatis.util.RedisUtil;
+import io.lettuce.core.RedisURI;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
+import java.io.InputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.IntStream;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = TemplateSpringBootMybatisApplication.class)
 @Transactional
-@Rollback
+//@Rollback
 class TemplateSpringBootMybatisApplicationTests {
 
+    private static final Logger logger = LoggerFactory.getLogger(TemplateSpringBootMybatisApplication.class);
     @Autowired
     private ApprovalMainMapper approvalMainMapper;
     @Resource
     private ApplyMapper applyMapper;
     @Autowired
     private EmployeeMapper employeeMapper;
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+    @Resource
+    private RedisTemplate<String, Object> redisCacheTemplate;
+    @Resource
+    private RedisUtil redisUtil;
+
     @Test
     public void testInsert() {
         Apply list=applyMapper.selectByPrimaryKey("59");
@@ -109,4 +129,33 @@ class TemplateSpringBootMybatisApplicationTests {
         int list5 = employeeMapper.updateByExampleSelective(employee,example);//根据Condition条件对象，对符合条件的数据，进行按照T属性更新
 
     }
+
+    @Test
+    public void get() {
+        //测试线程安全
+        ExecutorService executorService = Executors.newFixedThreadPool(1000);
+        IntStream.range(0, 1000).forEach(i ->
+                executorService.execute(() -> stringRedisTemplate.opsForValue().increment("kk", 1))
+        );
+        stringRedisTemplate.opsForValue().set("k1" , "v1");
+        final String k1 = stringRedisTemplate.opsForValue().get("k1");
+        logger.info("[字符缓存结果]-[{}]" , k1);
+        // TODO 以下只演示整合，具体Redis命令可以参考官方文档，Spring Data Redis 只是改了个名字而已，Redis支持的命令它都支持
+        String key = "battcn:role:1";
+        redisCacheTemplate.opsForValue().set(key , new Role(111L,"role",false,"11",1L));
+        final Role role = (Role) redisCacheTemplate.opsForValue().get(key);
+        logger.info("[对象缓存结果] - [{}]",role.getRoleName());
+    }
+
+    @Test
+    public void testRedis(){
+
+        redisCacheTemplate.opsForValue().set("2016_token" , "2016_5314ca528e5a492eae9a1b41b9025ebf",86400, TimeUnit.SECONDS);
+        long string = redisUtil.getExpire("2016_token");
+        System.out.println(string);
+        //String str=redisCacheTemplate.opsForValue().get("2016_token").toString();
+        //str = str.substring(0,str.length());
+        //System.out.println(str);
+    }
+
 }
