@@ -2,14 +2,10 @@ package com.onion.template.spring.boot.mybatis;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.onion.template.spring.boot.mybatis.entity.Apply;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
 import com.onion.template.spring.boot.mybatis.entity.Role;
-import com.onion.template.spring.boot.mybatis.mapper.ApplyMapper;
-import com.onion.template.spring.boot.mybatis.mapper.ApprovalMainMapper;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
 import com.onion.template.spring.boot.mybatis.util.RedisUtil;
-import io.lettuce.core.RedisURI;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -18,14 +14,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
-import java.io.InputStream;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -41,10 +34,6 @@ class TemplateSpringBootMybatisApplicationTests {
 
     private static final Logger logger = LoggerFactory.getLogger(TemplateSpringBootMybatisApplication.class);
     @Autowired
-    private ApprovalMainMapper approvalMainMapper;
-    @Resource
-    private ApplyMapper applyMapper;
-    @Autowired
     private EmployeeMapper employeeMapper;
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
@@ -53,14 +42,8 @@ class TemplateSpringBootMybatisApplicationTests {
     @Resource
     private RedisUtil redisUtil;
 
-    @Test
-    public void testInsert() {
-        Apply list=applyMapper.selectByPrimaryKey("59");
-        System.out.println(list.getApplyResult());
 
-    }
-
-    @Test
+   /* @Test
     public void test(){
         PageHelper.startPage(1,4);
         Example example=new Example(Apply.class);
@@ -69,7 +52,7 @@ class TemplateSpringBootMybatisApplicationTests {
         for(Apply list1:list){
             System.out.println(list1.getApplyResult()+"---"+list1.getApplyType());
         }
-    }
+    }*/
     /*  https://blog.csdn.net/sinat_38419207/article/details/82907387
         eid birthdate employeeName employeeSex departmentId employeePhone employeeStatus employeeEmail
                                 employeeIdentify employeeEducation employeeNativePlace employeeMaritalStatus entrydate roleId

@@ -8,6 +8,7 @@ import javax.persistence.*;
 
 @Table(name = "employee")
 public class Employee implements Serializable {
+    private static final long serialVersionUID = 8676131899637805509L;
     /**
      * &员工表id
      */

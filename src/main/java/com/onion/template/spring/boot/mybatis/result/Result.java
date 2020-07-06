@@ -1,6 +1,5 @@
 package com.onion.template.spring.boot.mybatis.result;
 
-import java.sql.ResultSet;
 
 /**
  * @author onion
@@ -17,10 +16,11 @@ public class Result<T> {
     public static <T> Result<T> success(T data){
         return new Result<>(200 , "SUCCESS" , data);
     }
+
     public static <T> Result<T> error(CodeMsg codeMsg){
         return new Result<>(codeMsg);
     }
-    private Result(CodeMsg codeMsg){
+    public Result(CodeMsg codeMsg){
         if(codeMsg!=null){
             this.code=codeMsg.getCode();
             this.msg=codeMsg.getMsg();

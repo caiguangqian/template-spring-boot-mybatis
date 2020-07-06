@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 @Table(name = "role")
 public class Role implements Serializable {
+    private static final long serialVersionUID = 8676131899637805509L;
     /**
      * 角色id
      */

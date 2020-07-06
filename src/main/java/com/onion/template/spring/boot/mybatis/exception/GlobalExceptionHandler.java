@@ -28,8 +28,6 @@ public class GlobalExceptionHandler {
             return Result.error(ex.getCm());
         } else if (e instanceof BindException) {
             BindException ex = (BindException) e;
-            //List<ObjectError> errors = ex.getAllErrors();
-            // ObjectError error = errors.get(0);
             String msg = ex.getMessage();
             return Result.error(CodeMsg.BIND_ERROR.fillArgs(msg));
         } else {
