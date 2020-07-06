@@ -54,7 +54,7 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                 response.setCharacterEncoding("UTF-8");
                 response.setContentType("application/json;charset=UTF-8");
                 PrintWriter pw = response.getWriter();
-                pw.write(MapperUtils.obj2json(CodeMsg.TOKEN_ERRO));
+                pw.write(MapperUtils.obj2json(CodeMsg.TOKEN_ERROR));
                 logger.error("前端Token有问题，校验Redis上的Token失败");
                 return false;
             }
