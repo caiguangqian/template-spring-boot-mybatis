@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 import javax.annotation.Resource;
@@ -29,6 +30,15 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
     private static final String OPTIONS="OPTIONS";
     @Resource
     private RedisUtil redisUtil;
+
+    @Override
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
+        registry.addResourceHandler("/webjars/**")
+                .addResourceLocations("classpath:/META-INF/resources/webjars/");
+    }
+
     @Override
     protected void addInterceptors(InterceptorRegistry registry) {
 
@@ -60,6 +70,10 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
             }
         };
         // 拦截路径配置，不拦截 login 和 logout（exclude表示排除）
-        registry.addInterceptor(handlerInterceptor).excludePathPatterns("/*/login","/*/logout");
+        registry.addInterceptor(handlerInterceptor)
+                .addPathPatterns("/**")
+                .excludePathPatterns("/*/login")
+                .excludePathPatterns("/swagger-resources/**", "/webjars/**", "/v2/**", "/swagger-ui.html/**");
+
     }
 }

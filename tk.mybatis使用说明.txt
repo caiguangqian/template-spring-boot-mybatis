@@ -13,7 +13,6 @@ mybatis:
 
 3、创建一个通用的父级接口
 主要作用是让 DAO 层的接口继承该接口，以达到使用 tk.mybatis 的目的
-package com.funtl.utils;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
@@ -26,3 +25,5 @@ import tk.mybatis.mapper.common.MySqlMapper;
  */
 public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 }
+
+
