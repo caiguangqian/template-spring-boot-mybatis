@@ -5,6 +5,8 @@ import com.github.pagehelper.PageInfo;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
 import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
+import com.onion.template.spring.boot.mybatis.mapper.RoleMapper;
+import com.onion.template.spring.boot.mybatis.util.MapperUtils;
 import com.onion.template.spring.boot.mybatis.util.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -41,6 +43,8 @@ class TemplateSpringBootMybatisApplicationTests {
     private RedisTemplate<String, Object> redisCacheTemplate;
     @Resource
     private RedisUtil redisUtil;
+    @Resource
+    private RoleMapper roleMapper;
 
 
    /* @Test
@@ -139,6 +143,16 @@ class TemplateSpringBootMybatisApplicationTests {
         //String str=redisCacheTemplate.opsForValue().get("2016_token").toString();
         //str = str.substring(0,str.length());
         //System.out.println(str);
+    }
+    @Test
+    public void testRole(){
+        Role role =  roleMapper.selectByPrimaryKey(1);
+
+        System.out.println(role.getRoleId());
+        System.out.println(role.getRoleName());
+        System.out.println(role.getLimitedId());
+        System.out.println(role.getRoleStatus());
+        System.out.println(role.getRoleRemarks());
     }
 
 }

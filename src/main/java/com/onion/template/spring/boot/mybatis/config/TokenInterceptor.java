@@ -54,9 +54,10 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                 String token = request.getHeader("authorization");
                 System.out.println(token);
 
-                if (token != null) {
+                if (null!=token||!"".equals(token)) {
                     boolean flag = redisUtil.hasKey(token);
                     if (flag) {
+                        redisUtil.expire(token , 18000);
                         return true;
                     }
                 }

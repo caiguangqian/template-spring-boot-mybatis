@@ -13,12 +13,12 @@ spring:
   redis:
     host: 47.93.228.28
     password:
-    timeout: 10000
+    timeout: 10000ms
     database: 1
     lettuce:
       pool:
         max-active: 8
-        max-wait: -1
+        max-wait: -1ms
         max-idle: 8
         min-idle: 0
 
