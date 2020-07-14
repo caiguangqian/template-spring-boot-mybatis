@@ -74,6 +74,30 @@ public class OkHttpClientUtil {
     }
 
     /**
+     * GET，同步方式，获取网络数据
+     *
+     * @param url 请求地址
+     * @param accept_token
+     * @param value
+     * @return {@link Response}
+     */
+    public Response getData(String url, String accept_token , String value) {
+        // 构造 Request
+        Request.Builder builder = new Request.Builder();
+        Request request = builder.get().url(url).header(accept_token,value).build();
+        // 将 Request 封装为 Call
+        Call call = okHttpClient.newCall(request);
+        // 执行 Call，得到 Response
+        Response response = null;
+        try {
+            response = call.execute();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return response;
+    }
+
+    /**
      * POST 请求，同步方式，提交数据
      *
      * @param url        请求地址

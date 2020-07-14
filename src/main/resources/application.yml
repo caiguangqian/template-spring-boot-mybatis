@@ -34,5 +34,14 @@ logging:
   file:
     name: log/mylog.log
 
+server:
+  port: 8081
+
+pagehelper:
+  helperDialect: 'mysql'
+  params: count=countSql
+  reasonable: 'true'
+  supportMethodsArguments: 'true'
+
 
 

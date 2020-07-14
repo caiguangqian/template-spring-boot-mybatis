@@ -7,7 +7,9 @@ import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
 import com.onion.template.spring.boot.mybatis.mapper.RoleMapper;
 import com.onion.template.spring.boot.mybatis.util.MapperUtils;
+import com.onion.template.spring.boot.mybatis.util.OkHttpClientUtil;
 import com.onion.template.spring.boot.mybatis.util.RedisUtil;
+import okhttp3.Response;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -153,6 +155,24 @@ class TemplateSpringBootMybatisApplicationTests {
         System.out.println(role.getLimitedId());
         System.out.println(role.getRoleStatus());
         System.out.println(role.getRoleRemarks());
+    }
+
+    @Test
+    public void testOkHttpClient(){
+        String url = "http://127.0.0.1:8081/role/1";
+        OkHttpClientUtil httpClientUtil = OkHttpClientUtil.getInstance();
+        Response response = httpClientUtil.getData(url,"accept_token","2016_5314ca528e5a492eae9a1b41b9025ebf");
+        System.out.println(response);
+    }
+
+    @Test
+    public void testPageHelper(){
+        int start = 1;
+        int size = 5;
+        PageHelper.startPage(1,5);
+        List<Employee> list = employeeMapper.selectAll();
+        PageInfo pageInfo = new PageInfo(list);
+        System.out.println(pageInfo);
     }
 
 }

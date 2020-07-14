@@ -1,185 +1,749 @@
-2020-07-13 10:52:42.980  INFO 12732 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 12732 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
-2020-07-13 10:52:42.984  INFO 12732 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
-2020-07-13 10:52:44.442  WARN 12732 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 10:52:44.546  INFO 12732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-07-13 10:52:44.551  INFO 12732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-07-13 10:52:44.621  INFO 12732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
-2020-07-13 10:52:45.114  WARN 12732 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 10:52:45.760  INFO 12732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-07-13 10:52:45.786  INFO 12732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-07-13 10:52:45.786  INFO 12732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-07-13 10:52:45.912  INFO 12732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-07-13 10:52:45.912  INFO 12732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2874 ms
-2020-07-13 10:52:46.670  INFO 12732 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-07-13 10:52:52.033  INFO 12732 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-07-13 10:52:52.721  INFO 12732 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-07-13 10:52:53.947  INFO 12732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-07-13 10:52:53.948  INFO 12732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-07-13 10:52:53.980  INFO 12732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-07-13 10:52:54.030  INFO 12732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-07-13 10:52:54.215  INFO 12732 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 11.664 seconds (JVM running for 17.131)
-2020-07-13 10:53:22.786  INFO 12732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-07-13 10:53:22.786  INFO 12732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-07-13 10:53:22.791  INFO 12732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2020-07-13 10:53:23.169  WARN 12732 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /
-2020-07-13 10:53:23.199 ERROR 12732 --- [http-nio-8080-exec-6] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-07-13 10:53:23.205  WARN 12732 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /csrf
-2020-07-13 10:53:23.206 ERROR 12732 --- [http-nio-8080-exec-7] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-07-13 11:16:12.280  INFO 1320 --- [main] emplateSpringBootMybatisApplicationTests : Starting TemplateSpringBootMybatisApplicationTests on DESKTOP-T5E19KG with PID 1320 (started by admin in E:\onion\github\template-spring-boot-mybatis)
-2020-07-13 11:16:12.291  INFO 1320 --- [main] emplateSpringBootMybatisApplicationTests : No active profile set, falling back to default profiles: default
-2020-07-13 11:16:14.542  WARN 1320 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:16:14.656  INFO 1320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-07-13 11:16:14.660  INFO 1320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-07-13 11:16:14.715  INFO 1320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-07-13 11:16:14.897  WARN 1320 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:16:16.916  INFO 1320 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-07-13 11:16:18.681  INFO 1320 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-07-13 11:16:20.431  INFO 1320 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-07-13 11:16:21.266  INFO 1320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-07-13 11:16:21.307  INFO 1320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-07-13 11:16:21.340  INFO 1320 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-07-13 11:16:21.993  INFO 1320 --- [main] emplateSpringBootMybatisApplicationTests : Started TemplateSpringBootMybatisApplicationTests in 10.685 seconds (JVM running for 13.611)
-2020-07-13 11:16:22.187  INFO 1320 --- [main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@1ff463bb, testMethod = testRole@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@3b9c9b8b]; rollback [true]
-2020-07-13 11:16:22.678 DEBUG 1320 --- [main] c.o.t.s.b.m.mapper.RoleMapper.selectAll  : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role 
-2020-07-13 11:16:22.723 DEBUG 1320 --- [main] c.o.t.s.b.m.mapper.RoleMapper.selectAll  : ==> Parameters: 
-2020-07-13 11:16:22.936 DEBUG 1320 --- [main] c.o.t.s.b.m.mapper.RoleMapper.selectAll  : <==      Total: 9
-2020-07-13 11:16:23.323  INFO 1320 --- [main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@1ff463bb, testMethod = testRole@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
-2020-07-13 11:16:23.394  INFO 1320 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-07-13 11:16:23.449  INFO 1320 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-07-13 11:17:59.028  INFO 8892 --- [main] emplateSpringBootMybatisApplicationTests : Starting TemplateSpringBootMybatisApplicationTests on DESKTOP-T5E19KG with PID 8892 (started by admin in E:\onion\github\template-spring-boot-mybatis)
-2020-07-13 11:17:59.029  INFO 8892 --- [main] emplateSpringBootMybatisApplicationTests : No active profile set, falling back to default profiles: default
-2020-07-13 11:17:59.794  WARN 8892 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:17:59.851  INFO 8892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-07-13 11:17:59.854  INFO 8892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-07-13 11:17:59.888  INFO 8892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
-2020-07-13 11:17:59.989  WARN 8892 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:18:00.869  INFO 8892 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-07-13 11:18:01.667  INFO 8892 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-07-13 11:18:02.486  INFO 8892 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-07-13 11:18:03.063  INFO 8892 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-07-13 11:18:03.080  INFO 8892 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-07-13 11:18:03.104  INFO 8892 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-07-13 11:18:03.533  INFO 8892 --- [main] emplateSpringBootMybatisApplicationTests : Started TemplateSpringBootMybatisApplicationTests in 4.916 seconds (JVM running for 5.86)
-2020-07-13 11:18:03.775  INFO 8892 --- [main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@3b9c9b8b, testMethod = testRole@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7769d9b6]; rollback [true]
-2020-07-13 11:18:04.021 DEBUG 8892 --- [main] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
-2020-07-13 11:18:04.045 DEBUG 8892 --- [main] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(Integer)
-2020-07-13 11:18:04.180 DEBUG 8892 --- [main] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
-2020-07-13 11:18:04.398  INFO 8892 --- [main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@3b9c9b8b, testMethod = testRole@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
-2020-07-13 11:18:04.414  INFO 8892 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-07-13 11:18:04.422  INFO 8892 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-07-13 11:23:13.687  INFO 16920 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 16920 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
-2020-07-13 11:23:13.688  INFO 16920 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
-2020-07-13 11:23:14.285  WARN 16920 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:23:14.327  INFO 16920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-07-13 11:23:14.329  INFO 16920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-07-13 11:23:14.361  INFO 16920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
-2020-07-13 11:23:14.449  WARN 16920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
-2020-07-13 11:23:14.929  INFO 16920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-07-13 11:23:14.955  INFO 16920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-07-13 11:23:14.955  INFO 16920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-07-13 11:23:15.145  INFO 16920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-07-13 11:23:15.145  INFO 16920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1430 ms
-2020-07-13 11:23:15.496  INFO 16920 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-07-13 11:23:16.809  INFO 16920 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-07-13 11:23:17.247  INFO 16920 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-07-13 11:23:17.556  INFO 16920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-07-13 11:23:17.557  INFO 16920 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-07-13 11:23:17.567  INFO 16920 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-07-13 11:23:17.585  INFO 16920 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-07-13 11:23:17.662  INFO 16920 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.262 seconds (JVM running for 8.073)
-2020-07-13 11:23:28.969  INFO 16920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-07-13 11:23:28.969  INFO 16920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-07-13 11:23:28.983  INFO 16920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2020-07-13 11:23:29.481  WARN 16920 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /
-2020-07-13 11:23:29.547 ERROR 16920 --- [http-nio-8080-exec-10] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-07-13 11:23:29.568  WARN 16920 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /csrf
-2020-07-13 11:23:29.569 ERROR 16920 --- [http-nio-8080-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-07-13 11:23:29.696  WARN 16920 --- [http-nio-8080-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue  for parameter type integer
-
-java.lang.NumberFormatException: For input string: ""
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_121]
-	at java.lang.Long.parseLong(Long.java:601) ~[na:1.8.0_121]
-	at java.lang.Long.valueOf(Long.java:803) ~[na:1.8.0_121]
-	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
-	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:723) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:723) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:723) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:723) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:4374) [jackson-databind-2.11.0.jar:2.11.0]
-	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3629) [jackson-databind-2.11.0.jar:2.11.0]
-	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) [springfox-spring-web-2.9.2.jar:null]
-	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105) [springfox-swagger2-2.9.2.jar:null]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124) [druid-1.1.22.jar:1.1.22]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.35.jar:9.0.35]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
-
-2020-07-13 11:23:58.999 DEBUG 16920 --- [http-nio-8080-exec-1] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
-2020-07-13 11:23:59.012 DEBUG 16920 --- [http-nio-8080-exec-1] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(Integer)
-2020-07-13 11:23:59.116 DEBUG 16920 --- [http-nio-8080-exec-1] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 08:52:07.385  INFO 7044 --- [main] emplateSpringBootMybatisApplicationTests : Starting TemplateSpringBootMybatisApplicationTests on DESKTOP-T5E19KG with PID 7044 (started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 08:52:07.385  INFO 7044 --- [main] emplateSpringBootMybatisApplicationTests : No active profile set, falling back to default profiles: default
+2020-07-14 08:52:10.607  WARN 7044 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 08:52:10.884  INFO 7044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 08:52:10.888  INFO 7044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 08:52:10.992  INFO 7044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-07-14 08:52:11.263  WARN 7044 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 08:52:13.903  INFO 7044 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 08:52:15.466  INFO 7044 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 08:52:27.871  INFO 7044 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 08:52:29.586  INFO 7044 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 08:52:29.702  INFO 7044 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 08:52:29.734  INFO 7044 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 08:52:30.203  INFO 7044 --- [main] emplateSpringBootMybatisApplicationTests : Started TemplateSpringBootMybatisApplicationTests in 25.181 seconds (JVM running for 34.542)
+2020-07-14 08:52:30.551  INFO 7044 --- [main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@7462ba4b, testMethod = testPageHelper@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@4b09d1c3]; rollback [true]
+2020-07-14 08:52:31.056 DEBUG 7044 --- [main] c.o.t.s.b.m.m.E.selectAll_COUNT          : ==>  Preparing: SELECT count(0) FROM employee 
+2020-07-14 08:52:31.157 DEBUG 7044 --- [main] c.o.t.s.b.m.m.E.selectAll_COUNT          : ==> Parameters: 
+2020-07-14 08:52:31.371 DEBUG 7044 --- [main] c.o.t.s.b.m.m.E.selectAll_COUNT          : <==      Total: 1
+2020-07-14 08:52:31.371 DEBUG 7044 --- [main] c.o.t.s.b.m.m.EmployeeMapper.selectAll   : ==>  Preparing: SELECT eid,birthdate,employee_name,employee_sex,department_id,employee_phone,employee_status,employee_email,employee_identify,employee_education,employee_native_place,employee_marital_status,entrydate,role_id FROM employee LIMIT ? 
+2020-07-14 08:52:31.371 DEBUG 7044 --- [main] c.o.t.s.b.m.m.EmployeeMapper.selectAll   : ==> Parameters: 5(Integer)
+2020-07-14 08:52:31.526 DEBUG 7044 --- [main] c.o.t.s.b.m.m.EmployeeMapper.selectAll   : <==      Total: 5
+2020-07-14 08:52:31.824  INFO 7044 --- [main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5b247367 testClass = TemplateSpringBootMybatisApplicationTests, testInstance = com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplicationTests@7462ba4b, testMethod = testPageHelper@TemplateSpringBootMybatisApplicationTests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@268f106e testClass = TemplateSpringBootMybatisApplicationTests, locations = '{}', classes = '{class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication, class com.onion.template.spring.boot.mybatis.TemplateSpringBootMybatisApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3023df74, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7b98f307, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b7a5baa, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2020-07-14 08:52:31.919  INFO 7044 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-07-14 08:52:32.004  INFO 7044 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-07-14 10:35:47.194  INFO 6244 --- [main] emplateSpringBootMybatisApplicationTests : Starting TemplateSpringBootMybatisApplicationTests on DESKTOP-T5E19KG with PID 6244 (started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:35:47.210  INFO 6244 --- [main] emplateSpringBootMybatisApplicationTests : No active profile set, falling back to default profiles: default
+2020-07-14 10:35:50.801  WARN 6244 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:35:51.023  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:35:51.035  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:35:51.134  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 0 Redis repository interfaces.
+2020-07-14 10:35:51.378  WARN 6244 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:36:56.505  INFO 18736 --- [main] emplateSpringBootMybatisApplicationTests : Starting TemplateSpringBootMybatisApplicationTests on DESKTOP-T5E19KG with PID 18736 (started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:36:56.506  INFO 18736 --- [main] emplateSpringBootMybatisApplicationTests : No active profile set, falling back to default profiles: default
+2020-07-14 10:36:57.238  WARN 18736 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:36:57.296  INFO 18736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:36:57.299  INFO 18736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:36:57.331  INFO 18736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-07-14 10:36:57.446  WARN 18736 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:36:59.080  INFO 18736 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:37:00.433  INFO 18736 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:37:01.852  INFO 18736 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:37:06.833  INFO 18412 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 18412 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:37:06.835  INFO 18412 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:37:07.420  WARN 18412 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:37:07.459  INFO 18412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:37:07.461  INFO 18412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:37:07.487  INFO 18412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 10:37:07.565  WARN 18412 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:37:08.398  INFO 18412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:37:08.427  INFO 18412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:37:08.428  INFO 18412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:37:08.777  INFO 18412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:37:08.777  INFO 18412 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1915 ms
+2020-07-14 10:37:09.203  INFO 18412 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:37:09.819  INFO 18412 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:37:10.245  INFO 18412 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:37:10.548  INFO 18412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:37:10.549  INFO 18412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:37:10.582  INFO 18412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:37:10.632  INFO 18412 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:37:10.761  INFO 18412 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.173 seconds (JVM running for 5.497)
+2020-07-14 10:37:24.975  INFO 18412 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:37:24.975  INFO 18412 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:37:24.989  INFO 18412 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-07-14 10:37:25.004  WARN 18412 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:37:25.028 ERROR 18412 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:37:25.164  WARN 18412 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:37:25.165 ERROR 18412 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:39:12.561  INFO 10820 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 10820 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:39:12.563  INFO 10820 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:39:13.168  WARN 10820 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:39:13.204  INFO 10820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:39:13.206  INFO 10820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:39:13.231  INFO 10820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-07-14 10:39:13.306  WARN 10820 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:39:13.636  INFO 10820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:39:13.642  INFO 10820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:39:13.642  INFO 10820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:39:13.719  INFO 10820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:39:13.720  INFO 10820 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1125 ms
+2020-07-14 10:39:14.030  INFO 10820 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:39:14.641  INFO 10820 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:39:15.073  INFO 10820 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:39:15.328  INFO 10820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:39:15.329  INFO 10820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:39:15.339  INFO 10820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:39:15.356  INFO 10820 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:39:15.435  INFO 10820 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.169 seconds (JVM running for 4.1)
+2020-07-14 10:39:19.979  INFO 10820 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:39:19.979  INFO 10820 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:39:19.985  INFO 10820 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-14 10:39:19.995  WARN 10820 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:39:20.017 ERROR 10820 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:39:20.079  WARN 10820 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:39:20.081 ERROR 10820 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:39:26.452  WARN 10820 --- [http-nio-8081-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:39:26.455 ERROR 10820 --- [http-nio-8081-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:39:26.475  WARN 10820 --- [http-nio-8081-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:39:26.476 ERROR 10820 --- [http-nio-8081-exec-7] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:46:24.708  INFO 17856 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 17856 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:46:24.711  INFO 17856 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:46:25.327  WARN 17856 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:46:25.366  INFO 17856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:46:25.368  INFO 17856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:46:25.394  INFO 17856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-14 10:46:25.469  WARN 17856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:46:25.800  INFO 17856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:46:25.806  INFO 17856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:46:25.806  INFO 17856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:46:25.882  INFO 17856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:46:25.882  INFO 17856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1143 ms
+2020-07-14 10:46:26.194  INFO 17856 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:46:26.794  INFO 17856 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:46:27.232  INFO 17856 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:46:27.494  INFO 17856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:46:27.495  INFO 17856 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:46:27.505  INFO 17856 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:46:27.523  INFO 17856 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:46:27.604  INFO 17856 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.187 seconds (JVM running for 4.095)
+2020-07-14 10:46:32.378  INFO 17856 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:46:32.378  INFO 17856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:46:32.384  INFO 17856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-14 10:46:32.394  WARN 17856 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:46:32.417 ERROR 17856 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:46:32.454  WARN 17856 --- [http-nio-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:46:32.455 ERROR 17856 --- [http-nio-8081-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:46:57.100  INFO 15160 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 15160 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:46:57.102  INFO 15160 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:46:57.702  WARN 15160 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:46:57.740  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:46:57.742  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:46:57.769  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 10:46:57.846  WARN 15160 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:46:58.184  INFO 15160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:46:58.190  INFO 15160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:46:58.191  INFO 15160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:46:58.264  INFO 15160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:46:58.264  INFO 15160 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1132 ms
+2020-07-14 10:46:58.573  INFO 15160 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:46:59.217  INFO 15160 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:46:59.656  INFO 15160 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:46:59.923  INFO 15160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:46:59.924  INFO 15160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:46:59.934  INFO 15160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:46:59.951  INFO 15160 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:47:00.031  INFO 15160 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.237 seconds (JVM running for 4.233)
+2020-07-14 10:47:10.573  INFO 15160 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:47:10.573  INFO 15160 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:47:10.578  INFO 15160 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 10:47:10.592  WARN 15160 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:47:10.615 ERROR 15160 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:47:10.668  WARN 15160 --- [http-nio-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:47:10.670 ERROR 15160 --- [http-nio-8081-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:08.633  INFO 8268 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 8268 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:49:08.635  INFO 8268 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:49:09.236  WARN 8268 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:49:09.274  INFO 8268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:49:09.276  INFO 8268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:49:09.301  INFO 8268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-14 10:49:09.378  WARN 8268 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:49:09.712  INFO 8268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:49:09.718  INFO 8268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:49:09.718  INFO 8268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:49:09.792  INFO 8268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:49:09.792  INFO 8268 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1128 ms
+2020-07-14 10:49:10.100  INFO 8268 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:49:10.699  INFO 8268 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:49:11.168  INFO 8268 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:49:11.478  INFO 8268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:49:11.479  INFO 8268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:49:11.489  INFO 8268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:49:11.507  INFO 8268 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:49:11.591  INFO 8268 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.263 seconds (JVM running for 4.171)
+2020-07-14 10:49:12.651  INFO 8268 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:49:12.651  INFO 8268 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:49:12.655  INFO 8268 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 10:49:12.713 ERROR 8268 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:12.742  WARN 8268 --- [http-nio-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:49:12.744 ERROR 8268 --- [http-nio-8081-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:43.038  INFO 12180 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 12180 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:49:43.040  INFO 12180 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:49:43.648  WARN 12180 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:49:43.686  INFO 12180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:49:43.687  INFO 12180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:49:43.713  INFO 12180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-14 10:49:43.787  WARN 12180 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:49:44.120  INFO 12180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:49:44.126  INFO 12180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:49:44.126  INFO 12180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:49:44.200  INFO 12180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:49:44.201  INFO 12180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1130 ms
+2020-07-14 10:49:44.504  INFO 12180 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:49:45.097  INFO 12180 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:49:45.566  INFO 12180 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:49:45.827  INFO 12180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:49:45.828  INFO 12180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:49:45.837  INFO 12180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:49:45.854  INFO 12180 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:49:45.934  INFO 12180 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.193 seconds (JVM running for 4.068)
+2020-07-14 10:49:48.093  INFO 12180 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:49:48.093  INFO 12180 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:49:48.097  INFO 12180 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 10:49:48.130 ERROR 12180 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:48.161  WARN 12180 --- [http-nio-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:49:48.163 ERROR 12180 --- [http-nio-8081-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:52.041 ERROR 12180 --- [http-nio-8081-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:49:52.064  WARN 12180 --- [http-nio-8081-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:49:52.065 ERROR 12180 --- [http-nio-8081-exec-7] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:50:50.312  INFO 9224 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 9224 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:50:50.314  INFO 9224 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:50:50.958  WARN 9224 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:50:50.996  INFO 9224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:50:50.997  INFO 9224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:50:51.022  INFO 9224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-07-14 10:50:51.096  WARN 9224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:50:51.440  INFO 9224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:50:51.446  INFO 9224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:50:51.446  INFO 9224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:50:51.567  INFO 9224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:50:51.568  INFO 9224 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1224 ms
+2020-07-14 10:50:51.876  INFO 9224 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:50:52.481  INFO 9224 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:50:52.945  INFO 9224 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:50:53.236  INFO 9224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:50:53.236  INFO 9224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:50:53.246  INFO 9224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:50:53.263  INFO 9224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:50:53.342  INFO 9224 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.323 seconds (JVM running for 4.201)
+2020-07-14 10:50:56.376  INFO 9224 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:50:56.377  INFO 9224 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:50:56.381  INFO 9224 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 10:50:56.392  WARN 9224 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /index.html
+2020-07-14 10:50:56.414 ERROR 9224 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:50:56.443  WARN 9224 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:50:56.444 ERROR 9224 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:51:17.502  WARN 9224 --- [http-nio-8081-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:51:17.503 ERROR 9224 --- [http-nio-8081-exec-8] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:51:32.686  WARN 9224 --- [http-nio-8081-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:51:32.688 ERROR 9224 --- [http-nio-8081-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:55:25.473  INFO 18420 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 18420 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:55:25.475  INFO 18420 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:55:26.091  WARN 18420 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:55:26.131  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:55:26.133  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:55:26.160  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 10:55:26.240  WARN 18420 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:55:26.564  INFO 18420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:55:26.570  INFO 18420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:55:26.570  INFO 18420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:55:26.644  INFO 18420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:55:26.645  INFO 18420 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1140 ms
+2020-07-14 10:55:26.966  INFO 18420 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:55:27.574  INFO 18420 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:55:28.004  INFO 18420 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:55:28.262  INFO 18420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:55:28.263  INFO 18420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:55:28.273  INFO 18420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:55:28.290  INFO 18420 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:55:28.367  INFO 18420 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.199 seconds (JVM running for 4.133)
+2020-07-14 10:55:32.293  INFO 18420 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:55:32.293  INFO 18420 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:55:32.298  INFO 18420 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 10:55:32.365  WARN 18420 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:55:32.395 ERROR 18420 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:57:05.785  INFO 21404 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 21404 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:57:05.787  INFO 21404 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:57:06.418  WARN 21404 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:57:06.460  INFO 21404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:57:06.461  INFO 21404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:57:06.488  INFO 21404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-14 10:57:06.565  WARN 21404 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:57:06.905  INFO 21404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:57:06.911  INFO 21404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:57:06.911  INFO 21404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:57:07.019  INFO 21404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:57:07.020  INFO 21404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1201 ms
+2020-07-14 10:57:07.356  INFO 21404 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:57:08.002  INFO 21404 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:57:08.460  INFO 21404 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:57:08.720  INFO 21404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:57:08.721  INFO 21404 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:57:08.731  INFO 21404 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:57:08.748  INFO 21404 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:57:08.831  INFO 21404 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.359 seconds (JVM running for 4.225)
+2020-07-14 10:57:10.348  INFO 21404 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:57:10.348  INFO 21404 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:57:10.354  INFO 21404 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-14 10:57:10.429  WARN 21404 --- [http-nio-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:57:10.463 ERROR 21404 --- [http-nio-8081-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:59:16.822  INFO 7708 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 7708 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 10:59:16.825  INFO 7708 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 10:59:17.538  WARN 7708 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:59:17.581  INFO 7708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 10:59:17.582  INFO 7708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 10:59:17.614  INFO 7708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-07-14 10:59:17.704  WARN 7708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 10:59:18.081  INFO 7708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 10:59:18.088  INFO 7708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 10:59:18.088  INFO 7708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 10:59:18.179  INFO 7708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 10:59:18.179  INFO 7708 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1316 ms
+2020-07-14 10:59:18.548  INFO 7708 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 10:59:19.133  INFO 7708 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 10:59:19.659  INFO 7708 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 10:59:20.032  INFO 7708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 10:59:20.033  INFO 7708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 10:59:20.048  INFO 7708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 10:59:20.080  INFO 7708 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 10:59:20.195  INFO 7708 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.803 seconds (JVM running for 4.763)
+2020-07-14 10:59:23.810  INFO 7708 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 10:59:23.810  INFO 7708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 10:59:23.814  INFO 7708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 10:59:33.970  WARN 7708 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:59:33.995 ERROR 7708 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 10:59:50.962  WARN 7708 --- [http-nio-8081-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 10:59:50.964 ERROR 7708 --- [http-nio-8081-exec-9] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:00:01.613 DEBUG 7708 --- [http-nio-8081-exec-7] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:00:01.629 DEBUG 7708 --- [http-nio-8081-exec-7] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:00:01.794 DEBUG 7708 --- [http-nio-8081-exec-7] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:00:25.642  INFO 21368 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 21368 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:00:25.644  INFO 21368 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:00:26.244  WARN 21368 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:00:26.282  INFO 21368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:00:26.284  INFO 21368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:00:26.309  INFO 21368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-14 11:00:26.382  WARN 21368 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:00:26.718  INFO 21368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:00:26.724  INFO 21368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:00:26.725  INFO 21368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:00:26.825  INFO 21368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:00:26.825  INFO 21368 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1148 ms
+2020-07-14 11:00:27.131  INFO 21368 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:00:28.189  INFO 21368 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:00:28.647  INFO 21368 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:00:28.910  INFO 21368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:00:28.911  INFO 21368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:00:28.921  INFO 21368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:00:28.939  INFO 21368 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:00:29.020  INFO 21368 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.676 seconds (JVM running for 4.544)
+2020-07-14 11:00:31.842  INFO 21368 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:00:31.842  INFO 21368 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:00:31.846  INFO 21368 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 11:00:41.976  WARN 21368 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:00:41.995 ERROR 21368 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:00:53.498 DEBUG 21368 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:00:53.513 DEBUG 21368 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:00:53.604 DEBUG 21368 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:01:42.497  INFO 18128 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 18128 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:01:42.499  INFO 18128 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:01:43.194  WARN 18128 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:01:43.251  INFO 18128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:01:43.254  INFO 18128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:01:43.292  INFO 18128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-07-14 11:01:43.387  WARN 18128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:01:43.720  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:01:43.725  INFO 18128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:01:43.726  INFO 18128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:01:43.799  INFO 18128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:01:43.799  INFO 18128 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1269 ms
+2020-07-14 11:01:44.110  INFO 18128 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:01:44.735  INFO 18128 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:01:45.196  INFO 18128 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:01:45.492  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:01:45.493  INFO 18128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:01:45.504  INFO 18128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:01:45.523  INFO 18128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:01:45.604  INFO 18128 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.421 seconds (JVM running for 4.282)
+2020-07-14 11:01:46.947  INFO 18128 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:01:46.948  INFO 18128 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:01:46.953  INFO 18128 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:01:57.076  WARN 18128 --- [http-nio-8081-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:01:57.093 ERROR 18128 --- [http-nio-8081-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:02:17.490  WARN 18128 --- [http-nio-8081-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:02:17.491 ERROR 18128 --- [http-nio-8081-exec-10] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:02:21.296 DEBUG 18128 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:02:21.310 DEBUG 18128 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:02:21.493 DEBUG 18128 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:14:14.212  INFO 1840 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 1840 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:14:14.214  INFO 1840 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:14:14.981  WARN 1840 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:14:15.028  INFO 1840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:14:15.034  INFO 1840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:14:15.063  INFO 1840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 11:14:15.147  WARN 1840 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:14:15.607  INFO 1840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:14:15.614  INFO 1840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:14:15.614  INFO 1840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:14:15.695  INFO 1840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:14:15.696  INFO 1840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1441 ms
+2020-07-14 11:14:59.321  INFO 7368 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 7368 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:14:59.324  INFO 7368 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:15:00.036  WARN 7368 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:15:00.085  INFO 7368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:15:00.087  INFO 7368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:15:00.119  INFO 7368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-07-14 11:15:00.212  WARN 7368 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:15:00.606  INFO 7368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:15:00.613  INFO 7368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:15:00.613  INFO 7368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:15:00.701  INFO 7368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:15:00.701  INFO 7368 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1333 ms
+2020-07-14 11:15:43.334  INFO 16436 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 16436 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:15:43.337  INFO 16436 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:15:44.063  WARN 16436 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:15:44.111  INFO 16436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:15:44.113  INFO 16436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:15:44.146  INFO 16436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 11:15:44.227  WARN 16436 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:15:44.641  INFO 16436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:15:44.648  INFO 16436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:15:44.648  INFO 16436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:15:44.730  INFO 16436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:15:44.730  INFO 16436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1354 ms
+2020-07-14 11:15:45.112  INFO 16436 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:15:46.141  INFO 16436 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:15:46.651  INFO 16436 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:15:46.950  INFO 16436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:15:46.951  INFO 16436 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:15:46.963  INFO 16436 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:15:46.985  INFO 16436 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:15:47.082  INFO 16436 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.093 seconds (JVM running for 5.185)
+2020-07-14 11:15:57.332  INFO 16436 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:15:57.332  INFO 16436 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:15:57.339  INFO 16436 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-14 11:16:07.967  WARN 16436 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:19:45.106  INFO 5868 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 5868 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:19:45.108  INFO 5868 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:19:45.912  WARN 5868 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:19:45.973  INFO 5868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:19:45.975  INFO 5868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:19:46.017  INFO 5868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-07-14 11:19:46.125  WARN 5868 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:19:46.538  INFO 5868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:19:46.545  INFO 5868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:19:46.545  INFO 5868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:19:46.638  INFO 5868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:19:46.639  INFO 5868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1494 ms
+2020-07-14 11:19:47.019  INFO 5868 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:19:48.425  INFO 5868 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:19:48.938  INFO 5868 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:19:49.236  INFO 5868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:19:49.237  INFO 5868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:19:49.249  INFO 5868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:19:49.271  INFO 5868 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:19:49.366  INFO 5868 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.72 seconds (JVM running for 5.749)
+2020-07-14 11:19:56.698  INFO 5868 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:19:56.698  INFO 5868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:19:56.707  INFO 5868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-14 11:20:06.954  WARN 5868 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:20:57.467 ERROR 5868 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:24:47.574  INFO 8124 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 8124 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:24:47.576  INFO 8124 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:24:48.280  WARN 8124 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:24:48.330  INFO 8124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:24:48.332  INFO 8124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:24:48.368  INFO 8124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-07-14 11:24:48.454  WARN 8124 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:24:48.848  INFO 8124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:24:48.855  INFO 8124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:24:48.856  INFO 8124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:24:48.948  INFO 8124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:24:48.948  INFO 8124 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1325 ms
+2020-07-14 11:24:49.321  INFO 8124 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:24:49.959  INFO 8124 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:24:50.532  INFO 8124 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:24:50.829  INFO 8124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:24:50.830  INFO 8124 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:24:50.842  INFO 8124 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:24:50.864  INFO 8124 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:24:50.956  INFO 8124 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.783 seconds (JVM running for 4.773)
+2020-07-14 11:24:55.494  INFO 8124 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:24:55.494  INFO 8124 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:24:55.499  INFO 8124 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:25:25.677  WARN 8124 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:25:25.702 ERROR 8124 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:26:42.233  INFO 21108 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 21108 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:26:42.235  INFO 21108 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:26:42.935  WARN 21108 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:26:42.983  INFO 21108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:26:42.985  INFO 21108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:26:43.016  INFO 21108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-07-14 11:26:43.109  WARN 21108 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:26:43.492  INFO 21108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:26:43.499  INFO 21108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:26:43.499  INFO 21108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:26:43.595  INFO 21108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:26:43.595  INFO 21108 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1318 ms
+2020-07-14 11:26:43.967  INFO 21108 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:26:44.635  INFO 21108 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:26:45.126  INFO 21108 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:26:45.419  INFO 21108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:26:45.420  INFO 21108 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:26:45.431  INFO 21108 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:26:45.454  INFO 21108 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:26:45.547  INFO 21108 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.689 seconds (JVM running for 4.676)
+2020-07-14 11:26:47.837  INFO 21108 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:26:47.838  INFO 21108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:26:47.843  INFO 21108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:26:58.008  WARN 21108 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-07-14 11:28:04.169  INFO 10004 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 10004 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:28:04.171  INFO 10004 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:28:04.862  WARN 10004 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:28:04.910  INFO 10004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:28:04.912  INFO 10004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:28:04.946  INFO 10004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 11:28:05.028  WARN 10004 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:28:05.418  INFO 10004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:28:05.425  INFO 10004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:28:05.426  INFO 10004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:28:05.508  INFO 10004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:28:05.508  INFO 10004 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1297 ms
+2020-07-14 11:28:05.891  INFO 10004 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:28:06.559  INFO 10004 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:28:07.053  INFO 10004 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:28:07.350  INFO 10004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:28:07.352  INFO 10004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:28:07.364  INFO 10004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:28:07.387  INFO 10004 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:28:07.479  INFO 10004 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.671 seconds (JVM running for 4.672)
+2020-07-14 11:28:11.161  INFO 10004 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:28:11.161  INFO 10004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:28:11.166  INFO 10004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 11:28:22.578 DEBUG 10004 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:28:22.642 DEBUG 10004 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:28:22.842 DEBUG 10004 --- [http-nio-8081-exec-4] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:29:00.606  INFO 20228 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 20228 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:29:00.608  INFO 20228 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:29:01.485  WARN 20228 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:29:01.536  INFO 20228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:29:01.545  INFO 20228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:29:01.584  INFO 20228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-07-14 11:29:01.688  WARN 20228 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:29:02.108  INFO 20228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:29:02.116  INFO 20228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:29:02.116  INFO 20228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:29:02.200  INFO 20228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:29:02.200  INFO 20228 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
+2020-07-14 11:29:02.622  INFO 20228 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:29:03.270  INFO 20228 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:29:03.782  INFO 20228 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:29:04.083  INFO 20228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:29:04.084  INFO 20228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:29:04.096  INFO 20228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:29:04.118  INFO 20228 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:29:04.216  INFO 20228 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.935 seconds (JVM running for 5.29)
+2020-07-14 11:29:06.580  INFO 20228 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:29:06.580  INFO 20228 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:29:06.585  INFO 20228 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:29:14.697 DEBUG 20228 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:29:14.714 DEBUG 20228 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:29:14.774 DEBUG 20228 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:31:07.009  INFO 17664 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 17664 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:31:07.011  INFO 17664 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:31:07.771  WARN 17664 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:31:07.822  INFO 17664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:31:07.828  INFO 17664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:31:07.859  INFO 17664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-07-14 11:31:07.947  WARN 17664 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:31:08.366  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:31:08.374  INFO 17664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:31:08.374  INFO 17664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:31:08.461  INFO 17664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:31:08.461  INFO 17664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1405 ms
+2020-07-14 11:31:08.872  INFO 17664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:31:09.553  INFO 17664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:31:10.096  INFO 17664 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:31:10.416  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:31:10.417  INFO 17664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:31:10.432  INFO 17664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:31:10.456  INFO 17664 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:31:10.561  INFO 17664 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.909 seconds (JVM running for 4.981)
+2020-07-14 11:31:13.425  INFO 17664 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:31:13.425  INFO 17664 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:31:13.430  INFO 17664 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:31:21.124 DEBUG 17664 --- [http-nio-8081-exec-2] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:31:21.139 DEBUG 17664 --- [http-nio-8081-exec-2] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:31:21.205 DEBUG 17664 --- [http-nio-8081-exec-2] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:31:41.045  INFO 12396 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 12396 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:31:41.047  INFO 12396 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:31:41.773  WARN 12396 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:31:41.832  INFO 12396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:31:41.834  INFO 12396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:31:41.874  INFO 12396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-07-14 11:31:41.976  WARN 12396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:31:42.361  INFO 12396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:31:42.367  INFO 12396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:31:42.367  INFO 12396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:31:42.470  INFO 12396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:31:42.470  INFO 12396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1382 ms
+2020-07-14 11:31:42.844  INFO 12396 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:31:43.467  INFO 12396 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:31:43.962  INFO 12396 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:31:44.255  INFO 12396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:31:44.256  INFO 12396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:31:44.268  INFO 12396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:31:44.291  INFO 12396 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:31:44.385  INFO 12396 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.707 seconds (JVM running for 4.691)
+2020-07-14 11:31:47.063  INFO 12396 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:31:47.063  INFO 12396 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:31:47.068  INFO 12396 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 11:31:53.736 DEBUG 12396 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 11:31:53.751 DEBUG 12396 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 11:31:53.808 DEBUG 12396 --- [http-nio-8081-exec-6] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
+2020-07-14 11:33:27.002  INFO 9644 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 9644 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:33:27.004  INFO 9644 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:33:27.710  WARN 9644 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:33:27.757  INFO 9644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:33:27.759  INFO 9644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:33:27.794  INFO 9644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-07-14 11:33:27.879  WARN 9644 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:33:28.276  INFO 9644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:33:28.283  INFO 9644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:33:28.284  INFO 9644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:33:28.387  INFO 9644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:33:28.387  INFO 9644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1342 ms
+2020-07-14 11:33:28.766  INFO 9644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:33:30.602  INFO 9644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:33:31.172  INFO 9644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:33:31.489  INFO 9644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:33:31.490  INFO 9644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:33:31.503  INFO 9644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:33:31.525  INFO 9644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:33:31.636  INFO 9644 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.998 seconds (JVM running for 5.976)
+2020-07-14 11:33:33.538  INFO 9644 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:33:33.539  INFO 9644 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:33:33.546  INFO 9644 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-14 11:33:33.558  WARN 9644 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /static/index.html
+2020-07-14 11:33:33.585 ERROR 9644 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:34:00.427  INFO 17404 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 17404 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:34:00.429  INFO 17404 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:34:01.130  WARN 17404 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:34:01.174  INFO 17404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:34:01.175  INFO 17404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:34:01.203  INFO 17404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-14 11:34:01.290  WARN 17404 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:34:01.724  INFO 17404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:34:01.731  INFO 17404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:34:01.732  INFO 17404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:34:01.833  INFO 17404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:34:01.833  INFO 17404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1370 ms
+2020-07-14 11:34:02.196  INFO 17404 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:34:02.830  INFO 17404 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:34:03.315  INFO 17404 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:34:03.620  INFO 17404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:34:03.621  INFO 17404 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:34:03.633  INFO 17404 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:34:03.656  INFO 17404 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:34:03.755  INFO 17404 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.724 seconds (JVM running for 4.726)
+2020-07-14 11:34:09.691  INFO 17404 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:34:09.691  INFO 17404 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:34:09.696  INFO 17404 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-14 11:34:09.709  WARN 17404 --- [http-nio-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /static/index.html
+2020-07-14 11:34:09.733 ERROR 17404 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:34:30.495  WARN 17404 --- [http-nio-8081-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /static/index.html
+2020-07-14 11:34:30.497 ERROR 17404 --- [http-nio-8081-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:38:13.352  INFO 20468 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 20468 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:38:13.355  INFO 20468 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:38:14.162  WARN 20468 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:38:14.210  INFO 20468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:38:14.211  INFO 20468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:38:14.246  INFO 20468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-07-14 11:38:14.331  WARN 20468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:38:14.728  INFO 20468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:38:14.735  INFO 20468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:38:14.735  INFO 20468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:38:14.832  INFO 20468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:38:14.833  INFO 20468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1432 ms
+2020-07-14 11:38:15.206  INFO 20468 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:38:16.110  INFO 20468 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:38:16.833  INFO 20468 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:38:17.259  INFO 20468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:38:17.261  INFO 20468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:38:17.274  INFO 20468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:38:17.300  INFO 20468 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:38:17.407  INFO 20468 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 4.411 seconds (JVM running for 5.446)
+2020-07-14 11:38:41.884  INFO 20468 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:38:41.885  INFO 20468 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:38:41.892  INFO 20468 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-14 11:39:24.023  INFO 17980 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 17980 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:39:24.025  INFO 17980 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:39:24.730  WARN 17980 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:39:24.783  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:39:24.785  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:39:24.822  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-07-14 11:39:24.906  WARN 17980 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:39:25.294  INFO 17980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:39:25.301  INFO 17980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:39:25.301  INFO 17980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:39:25.382  INFO 17980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:39:25.382  INFO 17980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1316 ms
+2020-07-14 11:39:25.755  INFO 17980 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:39:26.384  INFO 17980 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:39:26.875  INFO 17980 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:39:27.182  INFO 17980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:39:27.183  INFO 17980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:39:27.195  INFO 17980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:39:27.217  INFO 17980 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:39:27.312  INFO 17980 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.652 seconds (JVM running for 4.669)
+2020-07-14 11:39:29.942  INFO 17980 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 11:39:29.942  INFO 17980 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 11:39:29.947  INFO 17980 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-14 11:39:29.980 ERROR 17980 --- [http-nio-8081-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:39:48.972 ERROR 17980 --- [http-nio-8081-exec-4] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
+2020-07-14 11:48:34.455  INFO 17172 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 17172 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 11:48:34.457  INFO 17172 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 11:48:35.170  WARN 17172 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:48:35.217  INFO 17172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 11:48:35.219  INFO 17172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 11:48:35.250  INFO 17172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-07-14 11:48:35.352  WARN 17172 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 11:48:35.742  INFO 17172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 11:48:35.749  INFO 17172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 11:48:35.750  INFO 17172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 11:48:35.853  INFO 17172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 11:48:35.853  INFO 17172 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1354 ms
+2020-07-14 11:48:36.229  INFO 17172 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 11:48:36.862  INFO 17172 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 11:48:37.370  INFO 17172 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 11:48:37.665  INFO 17172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 11:48:37.666  INFO 17172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 11:48:37.679  INFO 17172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 11:48:37.701  INFO 17172 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 11:48:37.797  INFO 17172 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 3.732 seconds (JVM running for 4.752)
+2020-07-14 14:00:04.923  INFO 760 --- [main] b.m.TemplateSpringBootMybatisApplication : Starting TemplateSpringBootMybatisApplication on DESKTOP-T5E19KG with PID 760 (E:\onion\github\template-spring-boot-mybatis\target\classes started by admin in E:\onion\github\template-spring-boot-mybatis)
+2020-07-14 14:00:04.959  INFO 760 --- [main] b.m.TemplateSpringBootMybatisApplication : No active profile set, falling back to default profiles: default
+2020-07-14 14:00:07.810  WARN 760 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 14:00:07.936  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 14:00:07.941  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-14 14:00:08.016  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+2020-07-14 14:00:08.188  WARN 760 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.onion.template.spring.boot.mybatis]' package. Please check your configuration.
+2020-07-14 14:00:09.134  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-14 14:00:09.153  INFO 760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-14 14:00:09.153  INFO 760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-14 14:00:09.352  INFO 760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-14 14:00:09.352  INFO 760 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4202 ms
+2020-07-14 14:00:10.321  INFO 760 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-07-14 14:00:11.453  INFO 760 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-07-14 14:00:12.509  INFO 760 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-14 14:00:13.043  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-14 14:00:13.044  INFO 760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-14 14:00:13.111  INFO 760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-14 14:00:13.142  INFO 760 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-14 14:00:13.425  INFO 760 --- [main] b.m.TemplateSpringBootMybatisApplication : Started TemplateSpringBootMybatisApplication in 10.772 seconds (JVM running for 14.8)
+2020-07-14 14:00:19.952  INFO 760 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 14:00:19.952  INFO 760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 14:00:19.958  INFO 760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-14 14:00:28.453 DEBUG 760 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==>  Preparing: SELECT role_id,role_name,role_status,role_remarks,limited_id FROM role WHERE role_id = ? 
+2020-07-14 14:00:28.518 DEBUG 760 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : ==> Parameters: 1(String)
+2020-07-14 14:00:28.765 DEBUG 760 --- [http-nio-8081-exec-3] c.o.t.s.b.m.m.R.selectByPrimaryKey       : <==      Total: 1
