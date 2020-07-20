@@ -1,4 +1,14 @@
+# 端口
+server:
+  port: 8002
+
 spring:
+  #application:
+    # 应用名称
+   # name: TemplateSpringBootMybatis
+  #profiles:
+    # 使用的配置文件
+   # active: dev
   datasource:
     druid:
       url: jdbc:mysql://47.93.228.28:3306/eam?useUnicode=true&characterEncoding=utf-8&useSSL=false&&serverTimezone=UTC&allowPublicKeyRetrieval=true
@@ -34,14 +44,12 @@ logging:
   file:
     name: log/mylog.log
 
-server:
-  port: 8081
-
 pagehelper:
   helperDialect: 'mysql'
   params: count=countSql
   reasonable: 'true'
   supportMethodsArguments: 'true'
+
 
 
 

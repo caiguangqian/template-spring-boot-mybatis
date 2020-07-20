@@ -35,6 +35,14 @@
             <property name="mappers" value="tk.mybatis.MyMapper"/>
         </plugin>
 
+        <!-- 自动为entity生成swagger2文档-->
+        <plugin type="mybatis.generator.plugins.GeneratorSwagger2Doc">
+            <property name="apiModelAnnotationPackage" value="io.swagger.annotations.ApiModel" />
+            <property name="apiModelPropertyAnnotationPackage" value="io.swagger.annotations.ApiModelProperty" />
+        </plugin>
+        <!-- 扩展entity的set方法,返回当前this实例，方便链式调用-->
+        <!--<plugin type="mybatis.generator.plugins.ExtendEntitySetter" />-->
+
         <!-- 配置数据库连接 -->
         <jdbcConnection
                 driverClass="${jdbc.driverClass}"
@@ -95,7 +103,7 @@
        注意，table里面很多参数都是对javaModelGenerator，context等元素的默认属性的一个复写；
     -->
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table catalog="eam" tableName="%">
+        <table schema="eam" tableName="department">
             <!-- mysql 配置 -->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>

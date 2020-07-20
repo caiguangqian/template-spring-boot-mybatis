@@ -41,6 +41,9 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/static/**")
                 //拦截真实地址，注意每个访问路径后面的路径加 /
                 .addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/images/**")
+                //拦截真实地址，注意每个访问路径后面的路径加 /
+                .addResourceLocations("classpath:/images/");
     }
 
     @Override
@@ -52,13 +55,13 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
 
                 // 放行OPTIONS请求，防止因跨域导致的请求失败
                 if(OPTIONS.equals(request.getMethod().toUpperCase())){
-                    return true;
+                    return false;
                 }
                 // 非OPTIONS请求TOKEN验证
                 String token = request.getHeader("authorization");
                 System.out.println(token);
 
-                if (null!=token||!"".equals(token)) {
+                if (null!=token && !"".equals(token)) {
                     boolean flag = redisUtil.hasKey(token);
                     if (flag) {
                         redisUtil.expire(token , 18000);
@@ -86,8 +89,9 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                         "/**/*.html",
                         "/**/*.js",
                         "/**/*.css",
-                        "/**/*.woff",
+                        "/**/*.woff2",
                         "/**/*.ttf",
+                        "/favicon.ico",
                         "/images"
                 );
     }

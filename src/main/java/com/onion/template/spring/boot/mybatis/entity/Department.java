@@ -1,37 +1,45 @@
 package com.onion.template.spring.boot.mybatis.entity;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import java.util.Date;
 import javax.persistence.*;
 
-@Table(name = "department")
+@ApiModel(value="com.onion.template.spring.boot.mybatis.entity.Department")
 public class Department {
     /**
      * &部门编号
      */
     @Id
     @Column(name = "department_id")
+    @ApiModelProperty(value="departmentId&部门编号")
     private Long departmentId;
 
     /**
      * 部门启用状态(0表示禁用,1表示启用)
      */
     @Column(name = "department_status")
+    @ApiModelProperty(value="departmentStatus部门启用状态(0表示禁用,1表示启用)")
     private Boolean departmentStatus;
 
     /**
      * 部门名称
      */
     @Column(name = "department_name")
+    @ApiModelProperty(value="departmentName部门名称")
     private String departmentName;
 
     /**
      * 部门描述
      */
     @Column(name = "department_describe")
+    @ApiModelProperty(value="departmentDescribe部门描述")
     private String departmentDescribe;
 
+    @ApiModelProperty(value="datetime")
     private Date datetime;
 
+    @ApiModelProperty(value="deleted")
     private Boolean deleted;
 
     /**

@@ -1,58 +1,25 @@
 package com.onion.template.spring.boot.mybatis.entity;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
 import javax.persistence.*;
 
-@Table(name = "limited")
+@Data
+@ApiModel(value="com.onion.template.spring.boot.mybatis.entity.Limited")
 public class Limited {
     @Id
     @Column(name = "limited_id")
+    @ApiModelProperty(value="limitedId")
     private Long limitedId;
 
     @Column(name = "limited_type")
+    @ApiModelProperty(value="limitedType")
     private Integer limitedType;
 
     @Column(name = "limited_remarks")
+    @ApiModelProperty(value="limitedRemarks")
     private String limitedRemarks;
 
-    /**
-     * @return limited_id
-     */
-    public Long getLimitedId() {
-        return limitedId;
-    }
-
-    /**
-     * @param limitedId
-     */
-    public void setLimitedId(Long limitedId) {
-        this.limitedId = limitedId;
-    }
-
-    /**
-     * @return limited_type
-     */
-    public Integer getLimitedType() {
-        return limitedType;
-    }
-
-    /**
-     * @param limitedType
-     */
-    public void setLimitedType(Integer limitedType) {
-        this.limitedType = limitedType;
-    }
-
-    /**
-     * @return limited_remarks
-     */
-    public String getLimitedRemarks() {
-        return limitedRemarks;
-    }
-
-    /**
-     * @param limitedRemarks
-     */
-    public void setLimitedRemarks(String limitedRemarks) {
-        this.limitedRemarks = limitedRemarks;
-    }
 }

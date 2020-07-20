@@ -2,6 +2,7 @@ package com.onion.template.spring.boot.mybatis;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.onion.template.spring.boot.mybatis.common.controller.BaseController;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
 import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
@@ -34,10 +35,10 @@ import java.util.stream.IntStream;
 @SpringBootTest(classes = TemplateSpringBootMybatisApplication.class)
 @Transactional
 //@Rollback
-class TemplateSpringBootMybatisApplicationTests {
+class TemplateSpringBootMybatisApplicationTests extends BaseController{
 
     private static final Logger logger = LoggerFactory.getLogger(TemplateSpringBootMybatisApplication.class);
-    @Autowired
+    @Resource
     private EmployeeMapper employeeMapper;
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
@@ -166,13 +167,28 @@ class TemplateSpringBootMybatisApplicationTests {
     }
 
     @Test
-    public void testPageHelper(){
-        int start = 1;
+    public void testPageHelper() throws Exception {
+        /*int start = 1;
         int size = 5;
         PageHelper.startPage(1,5);
         List<Employee> list = employeeMapper.selectAll();
         PageInfo pageInfo = new PageInfo(list);
-        System.out.println(pageInfo);
+        System.out.println(pageInfo);*/
+        //System.out.println(startPage(1,5,employeeMapper.selectAll()));
+        String user = "com.onion.template.spring.boot.mybatis.entity.Role";//字符串是该类的全限定名
+        try {
+            Class clzz = Class.forName(user);
+            Object classObj=clzz.newInstance();//将class类转换为对象
+            String[] field = classObj.toString().split("");
+            System.out.println(field);//
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

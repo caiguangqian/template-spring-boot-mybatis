@@ -10,7 +10,7 @@ public class ModelCache {
 
     static Map<String, Model> extra_cache = new HashMap<>();
 
-    static Map<String, Value2<String, String[]>> specified_cache = new HashMap<String, com.onion.template.spring.boot.mybatis.entity.Value2<String, String[]>>();
+    static Map<String, Value2<String, String[]>> specified_cache = new HashMap<>();
 
 }
 
