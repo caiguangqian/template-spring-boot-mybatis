@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
+    <title>测试跨域</title>
+</head>
+<body>
+<div class="main">
+
+    <table id="table" border="1">
+        <a onclick="clickT()">点击</a>
+    </table>
+</div>
+
+</body>
+<script type="text/javascript">
+    function clickT() {
+        $.ajax({
+            url:"http://localhost:8002/role/1", //请求地址
+            type:"GET", //提交的方式
+            headers: {
+                "authorization" : "2017_8b6b16b4966d40b6a0c73dae9dd868da",
+            },
+            dataType:"json", //返回类型 dataType中的T必须大写
+            error: function(data) {
+                alert("连接超时");
+            },
+            success: function(data){ //回调函数
+                    console.log(data);
+            }
+        });
+    }
+</script>
+</html>

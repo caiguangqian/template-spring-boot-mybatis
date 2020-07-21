@@ -1,13 +1,10 @@
 package com.onion.template.spring.boot.mybatis;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.onion.template.spring.boot.mybatis.common.controller.BaseController;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
 import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
 import com.onion.template.spring.boot.mybatis.mapper.RoleMapper;
-import com.onion.template.spring.boot.mybatis.util.MapperUtils;
 import com.onion.template.spring.boot.mybatis.util.OkHttpClientUtil;
 import com.onion.template.spring.boot.mybatis.util.RedisUtil;
 import okhttp3.Response;
@@ -30,7 +27,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
-
+/**
+ * @Author: onion
+ * @Description:
+ * @Date: 2020/7/21
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = TemplateSpringBootMybatisApplication.class)
 @Transactional
@@ -190,5 +191,6 @@ class TemplateSpringBootMybatisApplicationTests extends BaseController{
         }
 
     }
+
 
 }

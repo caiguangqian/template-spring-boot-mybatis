@@ -92,7 +92,9 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                         "/**/*.woff2",
                         "/**/*.ttf",
                         "/favicon.ico",
-                        "/images"
+                        "/images",
+                        "/druid/**",
+                        "/*/api-docs"
                 );
     }
 }

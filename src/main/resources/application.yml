@@ -31,6 +31,14 @@ spring:
         max-wait: -1ms
         max-idle: 8
         min-idle: 0
+http:
+  cors:
+    allow-origin: '"*"'
+    enabled: 'true '
+node:
+  data: true
+  master: true
+
 
 mybatis:
   #实体类的存放路径，如：com.funtl.hello.spring.boot.entity
