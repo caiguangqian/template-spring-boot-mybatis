@@ -24,6 +24,7 @@ import java.util.List;
  * swagger2 配置模块
  * 登录swagger2路径
  * http://localhost:8080/swagger-ui.html
+ * http://localhost:8002/doc.html
  */
 @Configuration
 @EnableKnife4j
