@@ -44,6 +44,8 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/images/**")
                 //拦截真实地址，注意每个访问路径后面的路径加 /
                 .addResourceLocations("classpath:/images/");
+        registry.addResourceHandler("/doc.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
     }
 
     @Override
@@ -55,12 +57,10 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
 
                 // 放行OPTIONS请求，防止因跨域导致的请求失败
                 if(OPTIONS.equals(request.getMethod().toUpperCase())){
-                    return false;
+                    return true;
                 }
                 // 非OPTIONS请求TOKEN验证
                 String token = request.getHeader("authorization");
-                System.out.println(token);
-
                 if (null!=token && !"".equals(token)) {
                     boolean flag = redisUtil.hasKey(token);
                     if (flag) {
@@ -68,7 +68,7 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                         return true;
                     }
                 }
-
+                System.out.println(token);
                 response.reset();
                 response.setCharacterEncoding("UTF-8");
                 response.setContentType("application/json;charset=UTF-8");
@@ -94,7 +94,10 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                         "/favicon.ico",
                         "/images",
                         "/druid/**",
-                        "/*/api-docs"
+                        "/*/api-docs",
+                        "/uploads/**",
+                        "/file/**",
+                        "/doc.html"
                 );
     }
 }

@@ -2,9 +2,7 @@ package com.onion.template.spring.boot.mybatis.config.swagger;
 
 import com.fasterxml.classmate.ResolvedType;
 import com.google.common.base.Optional;
-import com.onion.template.spring.boot.mybatis.common.utils.ReflectionUtils;
 import com.onion.template.spring.boot.mybatis.entity.Value2;
-import com.onion.template.spring.boot.mybatis.util.MapperUtils;
 import io.swagger.annotations.ApiModel;
 import io.swagger.models.ModelImpl;
 import io.swagger.models.properties.*;

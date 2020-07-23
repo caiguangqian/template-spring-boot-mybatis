@@ -1,5 +1,6 @@
 package com.onion.template.spring.boot.mybatis.config;
 
+import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -25,6 +26,7 @@ import java.util.List;
  * http://localhost:8080/swagger-ui.html
  */
 @Configuration
+@EnableKnife4j
 public class Swagger2Config {
 
     @Bean
