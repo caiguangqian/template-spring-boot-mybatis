@@ -206,10 +206,12 @@ class TemplateSpringBootMybatisApplicationTests extends BaseController{
     public void shouldAnswerWithTrue() {
         //数据源
         HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://47.93.228.28:3306/eam");
-        hikariConfig.setUsername("root");
-        hikariConfig.setPassword("g18475949943");
+        //hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        //hikariConfig.setJdbcUrl("jdbc:mysql://47.93.228.28:3306/eam");
+        hikariConfig.setDriverClassName("oracle.jdbc.OracleDriver");
+        hikariConfig.setJdbcUrl("jdbc:oracle:thin:@121.37.17.52:1521/orcl");
+        hikariConfig.setUsername("jg_data");
+        hikariConfig.setPassword("dddddd");
         //设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
         hikariConfig.setMinimumIdle(2);
