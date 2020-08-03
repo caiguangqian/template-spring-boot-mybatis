@@ -1,5 +1,7 @@
 package com.onion.template.spring.boot.mybatis.entity;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Date;
 import javax.persistence.*;
 
