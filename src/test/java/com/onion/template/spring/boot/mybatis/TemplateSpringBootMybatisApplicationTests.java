@@ -8,6 +8,7 @@ import cn.smallbun.screw.core.execute.DocumentationExecute;
 import cn.smallbun.screw.core.process.ProcessConfig;
 import com.onion.template.spring.boot.mybatis.common.controller.BaseController;
 import com.onion.template.spring.boot.mybatis.config.DruidConfig;
+import com.onion.template.spring.boot.mybatis.config.elasticsearch.IndexService;
 import com.onion.template.spring.boot.mybatis.entity.Employee;
 import com.onion.template.spring.boot.mybatis.entity.Role;
 import com.onion.template.spring.boot.mybatis.mapper.EmployeeMapper;
@@ -59,6 +60,8 @@ class TemplateSpringBootMybatisApplicationTests extends BaseController{
     private RedisUtil redisUtil;
     @Resource
     private RoleMapper roleMapper;
+    @Autowired
+    private IndexService indexService;
 
 
    /* @Test
@@ -260,6 +263,11 @@ class TemplateSpringBootMybatisApplicationTests extends BaseController{
                 .produceConfig(processConfig).build();
         //执行生成
         new DocumentationExecute(config).execute();
+    }
+
+    @Test
+    public void testES01(){
+        indexService.addDocument();
     }
 
 }

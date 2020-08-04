@@ -51,7 +51,7 @@ spring:
 http:
   cors:
     allow-origin: '"*"'
-    enabled: 'true '
+    enabled: 'true'
 node:
   data: true
   master: true
@@ -75,6 +75,15 @@ pagehelper:
   reasonable: 'true'
   supportMethodsArguments: 'true'
 
+#elasticsearch
+elasticsearch:
+  schema: http
+  address: 47.93.228.28:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
 
 
 
