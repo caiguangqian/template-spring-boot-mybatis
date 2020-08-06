@@ -82,7 +82,7 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
         };
         // 拦截路径配置，不拦截 login 和 logout（exclude表示排除）
         registry.addInterceptor(handlerInterceptor)
-                .addPathPatterns("/**")
+                .addPathPatterns("/api/**")
                 .excludePathPatterns("/*/login")
                 .excludePathPatterns("/swagger-resources/**", "/webjars/**", "/v2/**",
                         "/swagger-ui.html/**",

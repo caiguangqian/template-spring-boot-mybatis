@@ -115,7 +115,9 @@ public class TokenUtil {
     }
 
     public static void main(String[] args) {
-        String str = UUID.randomUUID().toString();
-        System.out.println(str);
+        /*String str = UUID.randomUUID().toString();
+        System.out.println(str);*/
+        String resourcePath =TokenUtil.class.getResource("/").getPath();
+        System.out.println(resourcePath);
     }
 }

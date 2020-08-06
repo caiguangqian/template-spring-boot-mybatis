@@ -1,5 +1,6 @@
 package com.onion.template.spring.boot.mybatis.entity;
 
+import com.alibaba.excel.annotation.ExcelProperty;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.io.Serializable;
@@ -12,74 +13,88 @@ public class Employee implements Serializable {
     /**
      * &员工表id
      */
+    @ExcelProperty("员工表id")
     @Id
     private Long eid;
 
+    @ExcelProperty("出生日期")
     @JsonFormat(pattern = "yyyy--MM--dd")
     private Date birthdate;
 
     /**
      * 员工姓名
      */
+    @ExcelProperty("员工姓名")
     @Column(name = "employee_name")
     private String employeeName;
 
     /**
      * 性别
      */
+    @ExcelProperty("性别")
     @Column(name = "employee_sex")
     private Boolean employeeSex;
 
     /**
      * *所属部门id
      */
+    @ExcelProperty("所属部门id")
     @Column(name = "department_id")
     private Long departmentId;
 
     /**
      * 电话
      */
+    @ExcelProperty("电话")
     @Column(name = "employee_phone")
     private String employeePhone;
 
     /**
      * 在职状态
      */
+    @ExcelProperty("在职状态")
     @Column(name = "employee_status")
     private Boolean employeeStatus;
 
     /**
      * 邮箱
      */
+    @ExcelProperty("邮箱")
     @Column(name = "employee_email")
     private String employeeEmail;
 
     /**
      * 身份证号
      */
+    @ExcelProperty("身份证号")
     @Column(name = "employee_identify")
     private String employeeIdentify;
 
     /**
      * 学历
      */
+    @ExcelProperty("学历")
     @Column(name = "employee_education")
     private String employeeEducation;
 
     /**
      * 籍贯
      */
+    @ExcelProperty("籍贯")
     @Column(name = "employee_native_place")
     private String employeeNativePlace;
 
     /**
      * 婚姻状况
      */
+    @ExcelProperty("婚姻状况")
     @Column(name = "employee_marital_status")
     private Boolean employeeMaritalStatus;
 
+    @ExcelProperty("entrydate")
     private Date entrydate;
 
+    @ExcelProperty("角色id")
     @Column(name = "role_id")
     private Long roleId;
 

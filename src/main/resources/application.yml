@@ -1,8 +1,14 @@
 # 端口
 server:
   port: 8002
-
+  servlet:
+    context-path: /api
 spring:
+  http:
+    multipart:
+      maxFileSize: 100Mb
+      maxRequestSize: 100Mb
+
   #application:
     # 应用名称
    # name: TemplateSpringBootMybatis
@@ -68,6 +74,7 @@ logging:
     com.onion.template.spring.boot.mybatis.mapper: debug
   file:
     name: log/mylog.log
+filePath: E:/file/
 
 pagehelper:
   helperDialect: 'mysql'
