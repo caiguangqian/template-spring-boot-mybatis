@@ -32,8 +32,8 @@ import java.util.UUID;
  * @Description: (用一句话描述该文件做什么)
  * @date 2020/7/21 18:59
  **/
-@RestController
-@RequestMapping("file")
+/*@RestController
+@RequestMapping("file")*/
 public class FileController {
     @Value("${filePath}")
     private String filePath;

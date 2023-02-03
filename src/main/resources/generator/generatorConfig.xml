@@ -25,10 +25,10 @@
             2，MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample；
         introspectedColumnImpl：类全限定名，用于扩展MBG
     -->
-    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+    <context id="ORACLE" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <!-- beginningDelimiter和endingDelimiter：指明数据库的用于标记数据库对象名的符号，比如ORACLE就是双引号，MYSQL默认是`反引号； -->
-        <property name="beginningDelimiter" value="`"/>
-        <property name="endingDelimiter" value="`"/>
+        <property name="beginningDelimiter" value=""/>
+        <property name="endingDelimiter" value=""/>
 
         <!-- 配置 tk.mybatis 插件 -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
@@ -36,10 +36,10 @@
         </plugin>
 
         <!-- 自动为entity生成swagger2文档-->
-        <plugin type="mybatis.generator.plugins.GeneratorSwagger2Doc">
+        <!--<plugin type="mybatis.generator.plugins.GeneratorSwagger2Doc">
             <property name="apiModelAnnotationPackage" value="io.swagger.annotations.ApiModel" />
             <property name="apiModelPropertyAnnotationPackage" value="io.swagger.annotations.ApiModelProperty" />
-        </plugin>
+        </plugin>-->
         <!-- 扩展entity的set方法,返回当前this实例，方便链式调用-->
         <!--<plugin type="mybatis.generator.plugins.ExtendEntitySetter" />-->
 
@@ -56,14 +56,14 @@
                 targetProject：目标项目，指定一个存在的目录下，生成的内容会放到指定目录中，如果目录不存在，MBG不会自动建目录
              -->
         <!-- 配置实体类存放路径 -->
-        <javaModelGenerator targetPackage="com.onion.template.spring.boot.mybatis.entity" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.example.demo.entity" targetProject="src/main/java"/>
 
         <!-- 配置 XML 存放路径 -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
         <!-- 配置 DAO 存放路径 -->
         <javaClientGenerator
-                targetPackage="com.onion.template.spring.boot.mybatis.mapper"
+                targetPackage="com.example.demo.mapper"
                 targetProject="src/main/java"
                 type="XMLMAPPER"/>
 
@@ -103,9 +103,9 @@
        注意，table里面很多参数都是对javaModelGenerator，context等元素的默认属性的一个复写；
     -->
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table schema="eam" tableName="department">
+        <table schema="jg_jcxt" tableName="kss_lswg">
             <!-- mysql 配置 -->
-            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+            <!--<generatedKey column="id" sqlStatement="Mysql" identity="true"/>-->
         </table>
     </context>
 </generatorConfiguration>

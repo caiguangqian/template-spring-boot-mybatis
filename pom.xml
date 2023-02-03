@@ -26,42 +26,65 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
 
-   <!-- <dependencyManagement>
-        <dependencies>
-            &lt;!&ndash; Spring Cloud &ndash;&gt;
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>-->
+    <!-- <dependencyManagement>
+         <dependencies>
+             &lt;!&ndash; Spring Cloud &ndash;&gt;
+             <dependency>
+                 <groupId>org.springframework.cloud</groupId>
+                 <artifactId>spring-cloud-dependencies</artifactId>
+                 <version>${spring-cloud.version}</version>
+                 <type>pom</type>
+                 <scope>import</scope>
+             </dependency>
+         </dependencies>
+     </dependencyManagement>-->
     <dependencies>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>base</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>core</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>platform</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>chart</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>performance</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>report</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fr.report</groupId>
+            <artifactId>third</artifactId>
+            <version>8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <!--~~~~~~~~~~~~~~~~~~~~~~工具依赖~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <!--数据库文档核心依赖-->
         <dependency>
             <groupId>cn.smallbun.screw</groupId>
             <artifactId>screw-core</artifactId>
             <version>1.0.3</version>
-        </dependency>
-        <!-- HikariCP -->
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>3.4.5</version>
-        </dependency>
-        <!--oracle -->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc8</artifactId>
-            <version>12.2.0.1</version>
-        </dependency>
-        <!--mysql driver-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.20</version>
         </dependency>
         <!--常用工具类 -->
         <dependency>
@@ -85,21 +108,6 @@
             <artifactId>commons-collections4</artifactId>
             <version>4.4</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -115,17 +123,6 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.3.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <!-- Swagger2 Begin -->
-        <!--整合Knife4j-->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
-            <version>2.0.4</version>
         </dependency>
         <!--Swagger-UI API文档生产工具-->
         <dependency>
@@ -150,6 +147,53 @@
             <version>${swagger-annotations.version}</version>
         </dependency>
         <!-- Swagger2 End -->
+        <!--~~~~~~~~~~~~~~~~~~~~~~具依赖~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+        <!-- HikariCP -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.5</version>
+        </dependency>
+        <!--oracle -->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>12.2.0.1</version>
+        </dependency>
+        <!--mysql driver-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!-- Swagger2 Begin -->
+        <!--整合Knife4j-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -169,7 +213,6 @@
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>2.0.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
@@ -209,6 +252,7 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -217,6 +261,13 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
         </dependency>
+        <!-- redisson -->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.11.0</version>
+        </dependency>
+
         <!-- elasticsearch启动器 (必须)-->
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
@@ -234,11 +285,34 @@
             <version>6.5.4</version>
         </dependency>
         <!-- Spring Boot Cloud -->
-       <!-- <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
+        <!-- <dependency>
+             <groupId>org.springframework.cloud</groupId>
+             <artifactId>spring-cloud-starter-oauth2</artifactId>
+         </dependency>
+ --> <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.2.0</version>
         </dependency>
--->
+        <!-- framework: mybatis-plus代码生成需要一个模板引擎 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <!--mp代码生成器-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/cn.easyproject/orai18n -->
+        <dependency>
+            <groupId>cn.easyproject</groupId>
+            <artifactId>orai18n</artifactId>
+            <version>12.1.0.2.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -246,7 +320,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-
             </plugin>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>

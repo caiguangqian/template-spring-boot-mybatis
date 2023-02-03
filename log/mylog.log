@@ -1,393 +1,693 @@
-2020-08-06 09:11:26.865  INFO 13676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 09:11:26.904  INFO 13676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 09:11:27.065  INFO 13676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
-2020-08-06 09:11:31.193  INFO 13676 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 09:11:32.757  INFO 13676 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 09:11:35.093  INFO 13676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 09:11:35.117  INFO 13676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 09:11:35.156  INFO 13676 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 09:11:35.289  INFO 13676 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 09:11:36.527  INFO 13676 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-08-06 09:11:36.535  INFO 13676 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-08-06 09:17:54.439  INFO 2640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 09:17:54.443  INFO 2640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 09:17:54.483  INFO 2640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
-2020-08-06 09:17:56.426  INFO 2640 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 09:17:57.709  INFO 2640 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 09:17:59.489  INFO 2640 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 09:17:59.510  INFO 2640 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 09:17:59.542  INFO 2640 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 09:17:59.668  INFO 2640 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 09:18:00.338  INFO 2640 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-08-06 09:18:00.345  INFO 2640 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-08-06 09:18:23.169  INFO 2580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 09:18:23.173  INFO 2580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 09:18:23.213  INFO 2580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
-2020-08-06 09:18:25.138  INFO 2580 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 09:18:26.000  INFO 2580 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 09:18:27.903  INFO 2580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 09:18:27.924  INFO 2580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 09:18:27.957  INFO 2580 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 09:18:28.091  INFO 2580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 09:18:29.547  INFO 2580 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-08-06 09:18:29.555  INFO 2580 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-08-06 09:19:13.000  INFO 17184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 09:19:13.005  INFO 17184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 09:19:13.051  INFO 17184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
-2020-08-06 09:19:14.998  INFO 17184 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 09:19:15.816  INFO 17184 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 09:19:17.573  INFO 17184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 09:19:17.593  INFO 17184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 09:19:17.624  INFO 17184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 09:19:17.756  INFO 17184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 09:19:18.986  INFO 17184 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-08-06 09:19:18.998  INFO 17184 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-08-06 11:34:08.035  INFO 5532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 11:34:08.047  INFO 5532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 11:34:08.089  INFO 5532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
-2020-08-06 11:34:08.999  INFO 5532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 11:34:08.999  INFO 5532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 11:34:09.168  INFO 5532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 11:34:10.471  INFO 5532 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 11:34:11.486  INFO 5532 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 11:34:13.260  INFO 5532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 11:34:13.274  INFO 5532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 11:34:13.315  INFO 5532 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 11:34:13.367  INFO 5532 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 11:34:13.428  INFO 5532 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 11:36:50.434  INFO 5532 --- [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 11:48:07.437  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 11:48:07.441  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 11:48:07.474  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
-2020-08-06 11:48:08.038  INFO 15524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 11:48:08.039  INFO 15524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 11:48:08.214  INFO 15524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 11:48:09.010  INFO 15524 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 11:48:09.692  INFO 15524 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 11:48:10.630  INFO 15524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 11:48:10.661  INFO 15524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 11:48:10.685  INFO 15524 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 11:48:10.733  INFO 15524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 11:48:10.789  INFO 15524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 11:48:14.471  INFO 15524 --- [http-nio-8002-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 11:50:09.578  INFO 14360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 11:50:09.581  INFO 14360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 11:50:09.617  INFO 14360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 11:50:10.148  INFO 14360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 11:50:10.149  INFO 14360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 11:50:10.282  INFO 14360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 11:50:11.094  INFO 14360 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 11:50:11.770  INFO 14360 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 11:50:12.697  INFO 14360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 11:50:12.711  INFO 14360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 11:50:12.737  INFO 14360 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 11:50:12.786  INFO 14360 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 11:50:12.865  INFO 14360 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 11:50:14.505  INFO 14360 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 11:50:56.735  INFO 1948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 11:50:56.739  INFO 1948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 11:50:56.774  INFO 1948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 11:50:57.294  INFO 1948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 11:50:57.294  INFO 1948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 11:50:57.440  INFO 1948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 11:50:58.260  INFO 1948 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 11:50:58.975  INFO 1948 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 11:50:59.903  INFO 1948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 11:50:59.916  INFO 1948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 11:50:59.943  INFO 1948 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 11:51:00.010  INFO 1948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 11:51:00.069  INFO 1948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 11:51:02.841  INFO 1948 --- [http-nio-8002-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:34:23.148  INFO 13960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:34:23.170  INFO 13960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:34:23.235  INFO 13960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
-2020-08-06 14:34:24.679  INFO 13960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:34:24.679  INFO 13960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:34:24.867  INFO 13960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:34:31.633  INFO 13960 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:34:35.271  INFO 13960 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:34:36.595  INFO 13960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:34:36.609  INFO 13960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:34:36.636  INFO 13960 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:34:36.687  INFO 13960 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:34:36.766  INFO 13960 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:34:39.887  INFO 13960 --- [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:35:56.152  INFO 19836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:35:56.156  INFO 19836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:35:56.190  INFO 19836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 14:35:56.714  INFO 19836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:35:56.714  INFO 19836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:35:56.875  INFO 19836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:35:57.678  INFO 19836 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:35:58.325  INFO 19836 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:35:59.273  INFO 19836 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:35:59.286  INFO 19836 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:35:59.313  INFO 19836 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:35:59.384  INFO 19836 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:35:59.442  INFO 19836 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:36:03.270  INFO 19836 --- [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:36:40.736  INFO 13544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:36:40.740  INFO 13544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:36:40.773  INFO 13544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
-2020-08-06 14:36:41.292  INFO 13544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:36:41.293  INFO 13544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:36:41.442  INFO 13544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:36:42.252  INFO 13544 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:36:42.958  INFO 13544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:36:43.905  INFO 13544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:36:43.918  INFO 13544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:36:43.961  INFO 13544 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:36:44.008  INFO 13544 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:36:44.066  INFO 13544 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:36:46.411  INFO 13544 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:37:17.949  INFO 20708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:37:17.954  INFO 20708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:37:17.989  INFO 20708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 14:37:18.590  INFO 20708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:37:18.590  INFO 20708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:37:18.738  INFO 20708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:37:19.551  INFO 20708 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:37:20.233  INFO 20708 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:37:21.163  INFO 20708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:37:21.194  INFO 20708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:37:21.218  INFO 20708 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:37:21.265  INFO 20708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:37:21.324  INFO 20708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:37:24.179  INFO 20708 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:48:56.161  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:48:56.165  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:48:56.198  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
-2020-08-06 14:48:56.721  INFO 12580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:48:56.721  INFO 12580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:48:56.874  INFO 12580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:48:57.703  INFO 12580 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:48:58.430  INFO 12580 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:48:59.369  INFO 12580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:48:59.383  INFO 12580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:48:59.409  INFO 12580 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:48:59.482  INFO 12580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:48:59.540  INFO 12580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:49:09.823  INFO 12580 --- [http-nio-8002-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:51:20.139  INFO 11040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:51:20.143  INFO 11040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:51:20.173  INFO 11040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
-2020-08-06 14:51:20.714  INFO 11040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:51:20.715  INFO 11040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:51:20.890  INFO 11040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:51:21.725  INFO 11040 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:51:22.424  INFO 11040 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:51:23.443  INFO 11040 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:51:23.458  INFO 11040 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:51:23.487  INFO 11040 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:51:23.546  INFO 11040 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:51:23.618  INFO 11040 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:51:39.496  INFO 11040 --- [http-nio-8002-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:51:39.547 ERROR 11040 --- [http-nio-8002-exec-4] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:51:39.854 ERROR 11040 --- [http-nio-8002-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:51:51.397 ERROR 11040 --- [http-nio-8002-exec-6] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:51:51.506 ERROR 11040 --- [http-nio-8002-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:55:06.550  INFO 12400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:55:06.553  INFO 12400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:55:06.583  INFO 12400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
-2020-08-06 14:55:07.086  INFO 12400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:55:07.086  INFO 12400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:55:07.244  INFO 12400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:55:08.111  INFO 12400 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:55:08.740  INFO 12400 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:55:09.679  INFO 12400 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:55:09.691  INFO 12400 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:55:09.716  INFO 12400 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:55:09.763  INFO 12400 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:55:09.823  INFO 12400 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:55:11.795  INFO 12400 --- [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 14:55:11.869 ERROR 12400 --- [http-nio-8002-exec-2] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:55:12.001 ERROR 12400 --- [http-nio-8002-exec-1] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:55:14.009 ERROR 12400 --- [http-nio-8002-exec-3] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:55:14.109 ERROR 12400 --- [http-nio-8002-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 14:57:49.992  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 14:57:49.995  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 14:57:50.029  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 14:57:50.533  INFO 12276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 14:57:50.533  INFO 12276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 14:57:50.689  INFO 12276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 14:57:51.504  INFO 12276 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 14:57:52.169  INFO 12276 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 14:57:53.147  INFO 12276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 14:57:53.161  INFO 12276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 14:57:53.203  INFO 12276 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 14:57:53.250  INFO 12276 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 14:57:53.308  INFO 12276 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 14:57:56.197  INFO 12276 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:00:43.652  INFO 7232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:00:43.656  INFO 7232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:00:43.690  INFO 7232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 15:00:44.236  INFO 7232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:00:44.237  INFO 7232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:00:44.380  INFO 7232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:00:47.999  INFO 16832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:00:48.003  INFO 16832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:00:48.041  INFO 16832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
-2020-08-06 15:00:48.572  INFO 16832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:00:48.572  INFO 16832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:00:48.713  INFO 16832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:00:49.546  INFO 16832 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:00:50.232  INFO 16832 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:00:51.211  INFO 16832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:00:51.226  INFO 16832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:00:51.271  INFO 16832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:00:51.379  INFO 16832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:01:13.858  INFO 16832 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:12:13.966  INFO 16316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:12:13.969  INFO 16316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:12:14.005  INFO 16316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:12:14.746  INFO 16316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:12:14.747  INFO 16316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:12:14.951  INFO 16316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:12:16.023  INFO 16316 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:12:16.898  INFO 16316 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:12:18.014  INFO 16316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:12:18.030  INFO 16316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:12:18.056  INFO 16316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:12:18.190  INFO 16316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:12:26.065  INFO 16316 --- [http-nio-8002-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:14:10.344  INFO 15380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:14:10.348  INFO 15380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:14:10.381  INFO 15380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:14:10.959  INFO 15380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:14:10.959  INFO 15380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:14:11.053  INFO 15380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:14:11.861  INFO 15380 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:14:12.549  INFO 15380 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:14:13.578  INFO 15380 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:14:13.590  INFO 15380 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:14:13.615  INFO 15380 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:14:13.662  INFO 15380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:14:13.725  INFO 15380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:14:16.761  INFO 15380 --- [http-nio-8002-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:14:40.386  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:14:40.390  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:14:40.425  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 15:14:41.008  INFO 8272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:14:41.008  INFO 8272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:14:41.089  INFO 8272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:14:41.916  INFO 8272 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:14:42.591  INFO 8272 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:14:43.595  INFO 8272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:14:43.608  INFO 8272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:14:43.632  INFO 8272 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:14:43.679  INFO 8272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:14:43.737  INFO 8272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:14:46.882  INFO 8272 --- [http-nio-8002-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:18:41.911  INFO 7652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:18:41.915  INFO 7652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:18:41.962  INFO 7652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
-2020-08-06 15:18:42.613  INFO 7652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:18:42.614  INFO 7652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:18:42.695  INFO 7652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:18:43.510  INFO 7652 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:18:44.203  INFO 7652 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:18:45.168  INFO 7652 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:18:45.181  INFO 7652 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:18:45.204  INFO 7652 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:18:45.251  INFO 7652 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:18:45.308  INFO 7652 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:19:02.177  INFO 7652 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:21:54.624  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:21:54.629  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:21:54.664  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:21:55.236  INFO 9772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:21:55.236  INFO 9772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:21:55.316  INFO 9772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:21:56.131  INFO 9772 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:21:56.804  INFO 9772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:21:57.967  INFO 9772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:21:57.981  INFO 9772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:21:58.005  INFO 9772 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:21:58.074  INFO 9772 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:21:58.152  INFO 9772 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:22:02.017  INFO 9772 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:28:12.384  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:28:12.388  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:28:12.423  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 15:28:12.955  INFO 11392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:28:12.955  INFO 11392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:28:13.102  INFO 11392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:28:13.916  INFO 11392 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:28:14.587  INFO 11392 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:28:15.528  INFO 11392 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:28:15.559  INFO 11392 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:28:15.584  INFO 11392 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:28:15.632  INFO 11392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:28:15.689  INFO 11392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:28:32.396  INFO 11392 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:29:00.998 ERROR 11392 --- [http-nio-8002-exec-5] c.o.t.s.b.m.config.TokenInterceptor      : 前端Token有问题，校验Redis上的Token失败
-2020-08-06 15:29:18.077  INFO 18104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:29:18.081  INFO 18104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:29:18.115  INFO 18104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:29:18.687  INFO 18104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:29:18.687  INFO 18104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:29:18.767  INFO 18104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:29:19.591  INFO 18104 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:29:20.245  INFO 18104 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:29:21.234  INFO 18104 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:29:21.247  INFO 18104 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:29:21.270  INFO 18104 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:29:21.317  INFO 18104 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:29:21.374  INFO 18104 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:29:26.436  INFO 18104 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:31:30.726  INFO 10624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:31:30.729  INFO 10624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:31:30.764  INFO 10624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:31:31.284  INFO 10624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:31:31.285  INFO 10624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:31:31.420  INFO 10624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:31:32.228  INFO 10624 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:31:32.932  INFO 10624 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:31:33.902  INFO 10624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:31:33.914  INFO 10624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:31:33.940  INFO 10624 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:31:33.988  INFO 10624 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:31:34.045  INFO 10624 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:31:37.306  INFO 10624 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:32:18.918  INFO 17368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:32:18.921  INFO 17368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:32:18.956  INFO 17368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
-2020-08-06 15:32:19.533  INFO 17368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:32:19.534  INFO 17368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:32:19.614  INFO 17368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:32:20.437  INFO 17368 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:32:21.106  INFO 17368 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:32:22.078  INFO 17368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:32:22.091  INFO 17368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:32:22.114  INFO 17368 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:32:22.162  INFO 17368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:32:22.220  INFO 17368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:32:25.153  INFO 17368 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:35:00.272  INFO 20020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:35:00.276  INFO 20020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:35:00.315  INFO 20020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
-2020-08-06 15:35:00.876  INFO 20020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:35:00.877  INFO 20020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:35:01.067  INFO 20020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:35:01.952  INFO 20020 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:35:03.648  INFO 20020 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:35:04.628  INFO 20020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:35:04.644  INFO 20020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:35:04.674  INFO 20020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:35:04.725  INFO 20020 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:35:04.787  INFO 20020 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:35:07.296  INFO 20020 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-06 15:35:23.686  INFO 7472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-08-06 15:35:23.690  INFO 7472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-08-06 15:35:23.725  INFO 7472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
-2020-08-06 15:35:24.246  INFO 7472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-06 15:35:24.246  INFO 7472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-06 15:35:24.387  INFO 7472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2020-08-06 15:35:25.183  INFO 7472 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2020-08-06 15:35:25.838  INFO 7472 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-08-06 15:35:26.805  INFO 7472 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-08-06 15:35:26.818  INFO 7472 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-08-06 15:35:26.843  INFO 7472 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-08-06 15:35:26.903  INFO 7472 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
-2020-08-06 15:35:26.982  INFO 7472 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: testUsingGET_1
-2020-08-06 15:35:28.495  INFO 7472 --- [http-nio-8002-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 09:22:32.938  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 09:22:32.947  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 09:22:33.042  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+2020-11-06 09:22:36.772  INFO 7444 --- [main] org.redisson.Version                     : Redisson 3.11.0
+2020-11-06 09:34:27.435  INFO 9288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 09:34:27.440  INFO 9288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 09:34:27.491  INFO 9288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2020-11-06 09:34:29.789  INFO 9288 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-06 09:34:51.138 ERROR 9288 --- [main] com.alibaba.druid.pool.DruidDataSource   : init datasource error, url: jdbc:mysql://47.93.228.28:3306/eam?useUnicode=true&characterEncoding=utf-8&useSSL=false&&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) ~[druid-1.1.22.jar:1.1.22]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1922) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:454) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_121]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_121]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74) ~[junit5-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 131 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_121]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 134 common frames omitted
+
+2020-11-06 09:34:51.184 ERROR 9288 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} init error
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) ~[druid-1.1.22.jar:1.1.22]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1922) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:454) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_121]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_121]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74) ~[junit5-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 131 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_121]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 134 common frames omitted
+
+2020-11-06 09:34:51.190  INFO 9288 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-06 09:37:00.832  INFO 6020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 09:37:00.837  INFO 6020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 09:37:00.886  INFO 6020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-11-06 09:37:03.102  INFO 6020 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-06 09:37:24.306 ERROR 6020 --- [main] com.alibaba.druid.pool.DruidDataSource   : init datasource error, url: jdbc:mysql://47.93.228.28:3306/eam?useUnicode=true&characterEncoding=utf-8&useSSL=false&&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) ~[druid-1.1.22.jar:1.1.22]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1922) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:454) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_121]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_121]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74) ~[junit5-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 131 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_121]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 134 common frames omitted
+
+2020-11-06 09:37:24.317 ERROR 6020 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} init error
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) ~[druid-1.1.22.jar:1.1.22]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1922) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:454) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_121]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_121]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_121]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_121]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_121]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_121]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[na:1.8.0_121]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74) ~[junit5-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 131 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_121]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 134 common frames omitted
+
+2020-11-06 09:37:24.318  INFO 6020 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-06 09:38:14.029  INFO 13328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 09:38:14.033  INFO 13328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 09:38:14.083  INFO 13328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-11-06 09:38:16.292  INFO 13328 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-06 09:38:17.119  INFO 13328 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-06 09:38:17.136  INFO 13328 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-06 09:38:17.142  INFO 13328 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

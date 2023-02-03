@@ -95,7 +95,6 @@ public class TokenInterceptor extends WebMvcConfigurationSupport {
                         "/images",
                         "/druid/**",
                         "/*/api-docs",
-                        "/uploads/**",
                         "/file/**",
                         "/doc.html"
                 );
