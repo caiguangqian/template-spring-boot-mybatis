@@ -25,15 +25,16 @@
             2，MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample；
         introspectedColumnImpl：类全限定名，用于扩展MBG
     -->
-    <context id="ORACLE" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+    <context id="ORACLE" targetRuntime="MyBatis3" defaultModelType="flat">
         <!-- beginningDelimiter和endingDelimiter：指明数据库的用于标记数据库对象名的符号，比如ORACLE就是双引号，MYSQL默认是`反引号； -->
         <property name="beginningDelimiter" value=""/>
         <property name="endingDelimiter" value=""/>
 
         <!-- 配置 tk.mybatis 插件 -->
-        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+    <!--    <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="tk.mybatis.MyMapper"/>
-        </plugin>
+        </plugin>-->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
 
         <!-- 自动为entity生成swagger2文档-->
         <!--<plugin type="mybatis.generator.plugins.GeneratorSwagger2Doc">
@@ -50,6 +51,13 @@
                 userId="${jdbc.username}"
                 password="${jdbc.password}">
         </jdbcConnection>
+        <!--
+      默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer
+          true，把JDBC DECIMAL 和 NUMERIC 类型解析为java.math.BigDecimal
+      -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
         <!-- java模型创建器，是必须要的元素
                 负责：1，key类（见context的defaultModelType）；2，java类；3，查询类
                 targetPackage：生成的类要放的包，真实的包受enableSubPackages属性控制；
@@ -103,7 +111,9 @@
        注意，table里面很多参数都是对javaModelGenerator，context等元素的默认属性的一个复写；
     -->
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table schema="jg_jcxt" tableName="kss_lswg">
+        <table tableName="T_CT_USER_MENU"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
             <!-- mysql 配置 -->
             <!--<generatedKey column="id" sqlStatement="Mysql" identity="true"/>-->
         </table>
